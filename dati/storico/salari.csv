@@ -1,0 +1,501 @@
+area,misura,freq,periodo,valore,tipo,fonte
+EA,bce_salari_negoziali,Q,2015Q1,1.35,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2015Q2,1.4,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2015Q3,1.44,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2015Q4,1.41,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2016Q1,1.3,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2016Q2,1.33,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2016Q3,1.42,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2016Q4,1.39,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2017Q1,1.53,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2017Q2,1.43,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2017Q3,1.44,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2017Q4,1.49,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2018Q1,1.77,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2018Q2,2.23,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2018Q3,2.14,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2018Q4,2.11,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2019Q1,2.25,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2019Q2,1.98,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2019Q3,2.58,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2019Q4,1.99,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2020Q1,1.95,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2020Q2,1.68,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2020Q3,1.61,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2020Q4,1.93,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2021Q1,1.34,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2021Q2,1.6,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2021Q3,1.14,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2021Q4,1.35,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2022Q1,3.01,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2022Q2,2.56,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2022Q3,3.05,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2022Q4,3.15,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2023Q1,4.27,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2023Q2,4.4,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2023Q3,4.71,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2023Q4,4.51,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2024Q1,4.85,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2024Q2,3.69,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2024Q3,5.51,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2024Q4,4.21,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2025Q1,2.51,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2025Q2,4.04,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2025Q3,1.99,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2025Q4,2.94,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2026Q1,2.57,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_salari_negoziali,Q,2026Q2,2.45,yoy,BCE INW/Q.U2.N.INWR.000000.4F0.GY.IX
+EA,bce_wage_tracker,Q,2015Q1,1.30380838142665,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2015Q2,1.39692770887956,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2015Q3,1.50530336141348,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2015Q4,1.4785607204199,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2016Q1,1.44911486148234,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2016Q2,1.33815679068408,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2016Q3,1.35332492719569,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2016Q4,1.34493297299718,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2017Q1,1.49895528367412,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2017Q2,1.40467787370204,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2017Q3,1.34891423094696,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2017Q4,1.37446227115579,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2018Q1,1.52061190587351,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2018Q2,2.03564147756112,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2018Q3,2.06405149730862,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2018Q4,2.1443059458645,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2019Q1,2.26425720482226,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2019Q2,1.7598696239016,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2019Q3,1.95767571795171,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2019Q4,1.91198179770573,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2020Q1,1.82422027472653,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2020Q2,1.73052062428258,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2020Q3,1.39219004786422,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2020Q4,1.34743202220293,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2021Q1,1.20367202241329,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2021Q2,1.26919063682365,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2021Q3,1.25815964752019,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2021Q4,1.46760413006557,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2022Q1,2.06606250735544,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2022Q2,2.91861361313721,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2022Q3,3.20499526586042,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2022Q4,3.52837172539633,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2023Q1,4.38938384601826,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2023Q2,4.20052332644356,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2023Q3,4.67496885205094,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2023Q4,4.46950283946259,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2024Q1,4.02559488468934,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2024Q2,4.30256265780173,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2024Q3,5.04871517889469,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2024Q4,5.24759077434023,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2025Q1,4.72865497434733,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2025Q2,4.16194494253399,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2025Q3,2.31890265104631,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2025Q4,1.83356245113484,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2026Q1,1.82196302687838,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2026Q2,1.86808944619772,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2026Q3,2.45572380952637,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2026Q4,2.66339610316706,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2027Q1,2.66916508872515,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker,Q,2027Q2,2.76822510433035,yoy,BCE EWT/Q.U2.N.WT.INWS._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2015Q1,1.3410229284611,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2015Q2,1.42058843628523,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2015Q3,1.53213936483274,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2015Q4,1.49993757515166,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2016Q1,1.45722560396195,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2016Q2,1.36139686354828,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2016Q3,1.35810913611958,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2016Q4,1.36093194523796,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2017Q1,1.48561567804781,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2017Q2,1.39798965685822,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2017Q3,1.37674641302226,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2017Q4,1.39869785692628,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2018Q1,1.54899664718628,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2018Q2,1.97339210142307,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2018Q3,1.93693276391813,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2018Q4,2.00108088144912,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2019Q1,2.12653016744542,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2019Q2,1.75334471550033,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2019Q3,1.85207135038479,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2019Q4,1.82287547418702,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2020Q1,1.74450303274938,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2020Q2,1.59802306912022,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2020Q3,1.41189201261778,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2020Q4,1.33445248514861,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2021Q1,1.12851165738601,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2021Q2,1.16336341209731,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2021Q3,1.12693656327703,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2021Q4,1.33279309940415,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2022Q1,1.88558314774356,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2022Q2,2.61293234351729,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2022Q3,2.92084709794105,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2022Q4,3.24167689463921,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2023Q1,3.89443982458182,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2023Q2,3.83605746032682,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2023Q3,4.11102149054745,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2023Q4,3.90002484142462,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2024Q1,3.71269694090393,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2024Q2,3.84981522270615,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2024Q3,4.3956027456608,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2024Q4,4.62745281730261,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2025Q1,4.50349991809242,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2025Q2,4.41224308261829,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2025Q3,3.51885475770133,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2025Q4,3.10925909646858,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2026Q1,2.66012019766648,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2026Q2,2.43345199505645,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2026Q3,2.5229671541936,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2026Q4,2.65285225446268,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2027Q1,2.72202039991627,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,bce_wage_tracker_senza_una_tantum,Q,2027Q2,2.81662691071678,yoy,BCE EWT/Q.U2.N.WT.INWX._T.4F0.GY
+EA,compensation_per_employee,Q,2000Q1,6982.237843165591,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2000Q2,7014.986903918011,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2000Q3,7076.1269102588985,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2000Q4,7120.9052447609665,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2001Q1,7159.179845252577,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2001Q2,7209.839237799821,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2001Q3,7257.8155036844855,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2001Q4,7312.008878038098,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2002Q1,7352.790629986853,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2002Q2,7397.555881627714,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2002Q3,7451.9634392829785,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2002Q4,7497.816919112665,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2003Q1,7525.777536360106,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2003Q2,7567.822076766492,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2003Q3,7660.405706337433,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2003Q4,7665.259384525027,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2004Q1,7720.221646521639,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2004Q2,7765.903212620094,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2004Q3,7793.2817378543705,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2004Q4,7829.535593165555,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2005Q1,7863.222537494609,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2005Q2,7908.917922559276,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2005Q3,7953.868625181863,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2005Q4,8025.365592891129,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2006Q1,8049.6641610435645,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2006Q2,8107.420904370725,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2006Q3,8153.333589357391,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2006Q4,8207.781632484088,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2007Q1,8248.114968856646,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2007Q2,8298.940643833359,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2007Q3,8352.875425357875,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2007Q4,8438.382748275968,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2008Q1,8534.673834974561,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2008Q2,8583.120293236394,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2008Q3,8670.065260520629,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2008Q4,8694.644493781676,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2009Q1,8685.401774816206,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2009Q2,8726.855483391659,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2009Q3,8788.352066048526,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2009Q4,8844.324801104949,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2010Q1,8873.508047737498,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2010Q2,8943.723134424135,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2010Q3,8975.672930054221,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2010Q4,9013.427581804981,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2011Q1,9087.51556176064,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2011Q2,9135.124232804266,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2011Q3,9158.52748013517,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2011Q4,9203.103669923239,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2012Q1,9242.90918533982,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2012Q2,9277.230979662205,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2012Q3,9305.194797589242,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2012Q4,9326.450740444807,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2013Q1,9377.51664054763,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2013Q2,9417.872706139446,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2013Q3,9458.931295889683,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2013Q4,9476.443048977992,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2014Q1,9519.22412251812,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2014Q2,9538.101539358035,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2014Q3,9570.263874556784,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2014Q4,9613.579074107565,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2015Q1,9650.814265150986,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2015Q2,9698.34278069538,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2015Q3,9715.207637787522,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2015Q4,9753.310073477836,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2016Q1,9785.959411630056,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2016Q2,9796.90996628596,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2016Q3,9841.336874313825,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2016Q4,9891.49748225808,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2017Q1,9940.984181186865,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2017Q2,9980.811189272079,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2017Q3,10016.70768475988,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2017Q4,10091.063575437582,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2018Q1,10123.066543510664,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2018Q2,10185.954936935073,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2018Q3,10267.22877109025,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2018Q4,10324.017019484749,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2019Q1,10360.447319550396,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2019Q2,10432.765197981804,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2019Q3,10500.123454521363,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2019Q4,10523.420524422301,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2020Q1,10432.356375235806,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2020Q2,9993.687558429392,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2020Q3,10572.385154561365,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2020Q4,10637.07811760467,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2021Q1,10659.647573821427,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2021Q2,10758.235417540915,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2021Q3,10966.92605899212,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2021Q4,11066.196180966495,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2022Q1,11167.110411979571,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2022Q2,11253.924577778227,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2022Q3,11427.160268674263,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2022Q4,11591.65873426097,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2023Q1,11768.406282767552,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2023Q2,11881.03046567725,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2023Q3,12020.551964621,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2023Q4,12182.833706197556,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2024Q1,12327.685507881073,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2024Q2,12437.923229077878,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2024Q3,12544.446397475385,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2024Q4,12690.341046268197,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2025Q1,12798.087510463107,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2025Q2,12925.605682005476,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2025Q3,13034.118062366757,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2025Q4,13150.921706291194,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2026Q1,13246.05560796336,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+EA,compensation_per_employee,Q,2026Q2,13355.200300663802,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2000Q1,5638.068406919928,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2000Q2,5665.439394706576,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2000Q3,5731.1550587560905,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2000Q4,5736.338594665024,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2001Q1,5791.065089587631,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2001Q2,5808.941018860289,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2001Q3,5881.420352665065,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2001Q4,5923.88837695471,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2002Q1,5983.200634764289,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2002Q2,6033.642604929821,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2002Q3,6077.514065052127,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2002Q4,6115.177452470468,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2003Q1,6126.329804764227,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2003Q2,6135.304735405087,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2003Q3,6185.6257199435695,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2003Q4,6237.159317385147,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2004Q1,6279.6276020075575,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2004Q2,6316.563584251017,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2004Q3,6353.824320286824,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2004Q4,6403.698566805363,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2005Q1,6417.067916491215,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2005Q2,6488.07771563144,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2005Q3,6502.690919402386,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2005Q4,6578.541658117955,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2006Q1,6628.628663401304,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2006Q2,6700.6453463358675,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2006Q3,6746.43939179432,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2006Q4,6821.018836577535,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2007Q1,6860.96241852725,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2007Q2,6944.693934902277,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2007Q3,7035.170097472509,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2007Q4,7139.073136435231,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2008Q1,7304.54547902853,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2008Q2,7425.689300020111,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2008Q3,7567.0735400183885,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2008Q4,7606.610735430288,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2009Q1,7693.213543042933,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2009Q2,7741.385849744712,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2009Q3,7817.783990044646,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2009Q4,7844.465230827521,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2010Q1,7858.576172464617,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2010Q2,7897.031186811619,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2010Q3,7851.273134363909,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2010Q4,7871.179497008284,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2011Q1,7866.85224684574,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2011Q2,7873.684082933835,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2011Q3,7863.706630024047,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2011Q4,7877.978164774735,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2012Q1,7872.296159932415,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2012Q2,7843.356482516722,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2012Q3,7813.164583225271,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2012Q4,7588.687800594966,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2013Q1,7818.108821419404,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2013Q2,7759.735099337749,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2013Q3,7752.699633869399,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2013Q4,7748.127464732816,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2014Q1,7763.680720382406,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2014Q2,7783.524075457846,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2014Q3,7800.400555820128,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2014Q4,7795.812263162659,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2015Q1,7868.518993839836,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2015Q2,7875.36688563333,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2015Q3,7861.135294043429,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2015Q4,7907.428355957768,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2016Q1,7855.413546534543,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2016Q2,7866.1972707029745,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2016Q3,7865.665373879104,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2016Q4,7908.716958625651,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2017Q1,7917.587132346228,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2017Q2,7918.525036765593,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2017Q3,7927.813797842779,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2017Q4,7964.02843489218,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2018Q1,7989.195535894302,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2018Q2,8020.22611884167,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2018Q3,8104.87849016071,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2018Q4,8154.175390165113,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2019Q1,8225.38703955639,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2019Q2,8325.299624079451,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2019Q3,8395.229537285592,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2019Q4,8426.813127142323,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2020Q1,8389.196802784965,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2020Q2,7964.111763020542,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2020Q3,8614.155237341101,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2020Q4,8643.521085612416,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2021Q1,8686.809269162211,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2021Q2,8653.282454453769,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2021Q3,8902.845542521656,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2021Q4,8987.312770283817,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2022Q1,9029.670254803108,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2022Q2,9139.304099034658,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2022Q3,9296.45027182603,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2022Q4,9419.893038605162,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2023Q1,9559.982498989262,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2023Q2,9650.601881290153,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2023Q3,9735.333636737967,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2023Q4,9829.429803597226,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2024Q1,9931.140872962917,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2024Q2,10030.396913544162,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2024Q3,10073.614288412702,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2024Q4,10174.437968359702,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2025Q1,10313.046637772184,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2025Q2,10418.303281477129,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2025Q3,10536.742556199924,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2025Q4,10708.048219211487,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2026Q1,10765.683543087713,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+ES,compensation_per_employee,Q,2026Q2,10849.59355709006,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+FR,insee_salaire_mensuel_base,Q,2017Q2,100.0,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2017Q3,100.3,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2017Q4,100.4,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2018Q1,101.1,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2018Q2,101.5,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2018Q3,101.8,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2018Q4,102.0,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2019Q1,102.8,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2019Q2,103.3,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2019Q3,103.6,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2019Q4,103.8,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2020Q2,104.8,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2020Q3,105.1,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2020Q4,105.4,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2021Q1,106.0,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2021Q2,106.3,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2021Q3,106.6,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2021Q4,107.2,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2022Q1,108.4,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2022Q2,109.6,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2022Q3,110.6,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2022Q4,111.4,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2023Q1,113.5,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2023Q2,114.6,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2023Q3,115.3,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2023Q4,115.7,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2024Q1,117.3,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2024Q2,118.0,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2024Q3,118.4,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2024Q4,118.9,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2025Q1,119.8,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2025Q2,120.4,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2025Q3,120.7,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2025Q4,121.0,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2026Q1,121.9,livello,INSEE 010562695
+FR,insee_salaire_mensuel_base,Q,2026Q2,122.8,livello,INSEE 010562695
+IT,compensation_per_employee,Q,2000Q1,6981.414068749961,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2000Q2,6990.853000819779,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2000Q3,7048.463741101594,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2000Q4,7073.618810585823,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2001Q1,7139.522780773256,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2001Q2,7206.1880589799375,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2001Q3,7275.412075566659,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2001Q4,7311.489392159084,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2002Q1,7309.396494864789,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2002Q2,7376.008397414728,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2002Q3,7413.700493743183,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2002Q4,7461.559561814606,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2003Q1,7491.356037945973,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2003Q2,7557.029915148707,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2003Q3,7759.7436741958045,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2003Q4,7574.244475814583,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2004Q1,7728.211401438949,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2004Q2,7896.684737281068,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2004Q3,7852.100481396396,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2004Q4,7899.677960145408,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2005Q1,7924.391176118245,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2005Q2,7983.49758036542,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2005Q3,8023.044597303208,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2005Q4,8296.023347491899,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2006Q1,8140.818358806813,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2006Q2,8232.21169045097,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2006Q3,8316.111420612813,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2006Q4,8279.257130517119,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2007Q1,8317.331980277744,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2007Q2,8376.639333022516,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2007Q3,8410.180787498086,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2007Q4,8552.366478506296,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2008Q1,8659.385862636345,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2008Q2,8588.671607939317,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2008Q3,8677.003940758706,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2008Q4,8680.103145051819,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2009Q1,8632.120469538011,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2009Q2,8661.814875031001,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2009Q3,8696.22264871018,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2009Q4,8766.93895573463,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2010Q1,8735.403507026766,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2010Q2,8959.997095166806,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2010Q3,8957.910549446868,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2010Q4,8903.522476703341,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2011Q1,8988.459533501182,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2011Q2,9043.225173383007,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2011Q3,8976.81752794069,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2011Q4,8956.608652797235,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2012Q1,8942.627723464075,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2012Q2,8850.094614947508,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2012Q3,8861.677752936152,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2012Q4,8843.249657385433,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2013Q1,8897.527413942107,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2013Q2,8912.155041730297,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2013Q3,8967.325331219568,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2013Q4,9007.73027900413,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2014Q1,8951.716920291905,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2014Q2,8962.724151949049,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2014Q3,8964.58782410977,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2014Q4,9018.623737373739,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2015Q1,9039.531346814621,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2015Q2,9074.179695175008,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2015Q3,9057.901240065008,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2015Q4,9066.377867045347,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2016Q1,9080.489548954894,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2016Q2,9075.79242513855,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2016Q3,9095.644766730737,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2016Q4,9125.510907501995,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2017Q1,9132.948008073483,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2017Q2,9095.183738216583,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2017Q3,9136.198598777659,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2017Q4,9214.927362388378,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2018Q1,9187.1532042865,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2018Q2,9241.752976300173,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2018Q3,9331.051987251198,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2018Q4,9371.036738138566,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2019Q1,9401.261707033937,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2019Q2,9362.696709024722,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2019Q3,9388.542079879742,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2019Q4,9456.496483295654,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2020Q1,9130.950695547761,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2020Q2,8413.210935725027,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2020Q3,9278.102938192227,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2020Q4,9244.587698663454,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2021Q1,9405.940121285435,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2021Q2,9513.844571332605,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2021Q3,9755.096655352263,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2021Q4,9834.227664530257,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2022Q1,9927.670697876254,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2022Q2,9966.743025860314,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2022Q3,10057.1359974663,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2022Q4,10043.134185142166,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2023Q1,10184.526556574432,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2023Q2,10225.566205360496,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2023Q3,10312.086584495266,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2023Q4,10360.041844101117,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2024Q1,10475.46792300338,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2024Q2,10561.446962651133,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2024Q3,10637.294443145507,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2024Q4,10723.023773675002,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2025Q1,10756.915513879412,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2025Q2,10914.217331659906,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2025Q3,10992.185905472781,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2025Q4,11026.241550007984,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2026Q1,11089.916205564106,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC
+IT,compensation_per_employee,Q,2026Q2,11141.349916490582,livello,Eurostat namq_10_a10 D1 / namq_10_a10_e SAL_DC

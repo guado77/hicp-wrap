@@ -1,0 +1,45 @@
+[eurostat] EA (EA): 139 classi a 4 cifre
+[eurostat] EA: aggregati 2560 righe, voci 42043, pesi 3592
+[eurostat] EA: salari 106 trimestri
+[eurostat] IT (IT): 122 classi a 4 cifre
+[eurostat] IT: aggregati 2560 righe, voci 36224, pesi 3294
+[eurostat] IT: salari 106 trimestri
+[eurostat] DE (DE): 130 classi a 4 cifre
+[eurostat] DE: aggregati 2560 righe, voci 38763, pesi 3510
+[eurostat] DE: salari non disponibili (namq_10_a10 DE: nessun codice geo ha risposto (None))
+[eurostat] FR (FR): 127 classi a 4 cifre
+[eurostat] FR: aggregati 2560 righe, voci 38432, pesi 3429
+[eurostat] FR: salari non disponibili (namq_10_a10 FR: nessun codice geo ha risposto (None))
+[eurostat] ES (ES): 108 classi a 4 cifre
+[eurostat] ES: aggregati 2516 righe, voci 31217, pesi 2916
+[eurostat] ES: salari 106 trimestri
+[bce] dataflow HICP: chiave con 6 dimensioni, 1966 serie area euro
+[bce] HICP: 15 serie utili
+[bce] serie 15, salari 146 osservazioni
+[istat] 167_744_DF_DCSP_NIC1B2015_1: nessuna regola soddisfatta. Esempi di etichette: monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | all items || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | all items ex || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- food and  || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- alcoholic || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- clothing  || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- housing, 
+[istat] 167_745_DF_DCSP_NIC1B2025_1 cpi_headline <- 'monthly | como | consumer price index for the whole nation (base 2025=100) - monthly data | index number | indice generale' (0 mesi)
+[istat] 167_744_DF_DCSP_NIC1B2015_2: nessuna regola soddisfatta. Esempi di etichette: monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | all items || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- all-items || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | overall inde || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | overall inde || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | overall inde || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- administe
+[istat] 167_745_DF_DCSP_NIC1B2025_2 istat_carrello <- 'monthly | italy | consumer price index for the whole nation (base 2025=100) - monthly data | index number | beni alimentari, per la cura della casa e ' (0 mesi)
+[istat] 168_761 IPCA cpi_headline <- 'monthly | italy | harmonized index of consumer prices (base 2025=100) - monthly data | index number | indice generale' (0 mesi)
+[istat] retribuzioni: serie 'totale economia per dipendente' non riconosciuta
+[insee] IPCH 011812231: 321 mesi, ultimo 2026-09
+[insee] IPC-2025 dimensioni ['FREQ', 'INDICATEUR', 'FORME-VENTE', 'COICOP2018', 'PRIX_CONSO', 'NATURE', 'MENAGES_IPC', 'REF_AREA', 'UNIT_MEASURE', 'CORRECTION', 'BASIND', 'SERIE_ARRETEE'], chiave 'M...00..INDICE..FE....'
+[insee] IPC scelto 011814630: Indice des prix à la consommation - Base 2025 - Ensemble des ménages - France - Nomenclature Coicop : 00 - Ensemble
+[insee] IPC 011814630: 321 mesi, ultimo 2026-09
+[insee] salari 010562695: 36 trimestri
+[ine] IPC290751 cpi_headline: 296 mesi, ultimo 2026-08
+[ine] IPC290752 var. mensile cpi_headline: ultimo 2026-09
+[ine] IPCA8092 var. mensile hicp_headline: ultimo 2026-09
+[ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
+[ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
+[ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
+[destatis] 61111-0002: new-line character seen in unquoted field - do you need to open the file with newline=''?
+[destatis] 61121-0002: new-line character seen in unquoted field - do you need to open the file with newline=''?
+[preliminare] FR hicp_headline 2026-09: var. mensile -0.36% da INSEE 011812231
+[preliminare] ES cpi_headline 2026-09: var. mensile +0.30% da INE IPC290752
+[preliminare] ES hicp_alimentari 2026-09: var. mensile +0.30% da INE IPCA16282
+[preliminare] ES hicp_energia 2026-09: var. mensile +3.90% da INE IPCA9235
+[preliminare] ES hicp_headline 2026-09: var. mensile +0.60% da INE IPCA8092
+[preliminare] ES hicp_servizi 2026-09: var. mensile -0.60% da INE IPCA9238
+ultimi mesi: {'DE|hicp_headline': '2026-08', 'EA|hicp_headline': '2026-08', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-08'}
+NOVITA': {'DE|hicp_headline': '2026-08', 'EA|hicp_headline': '2026-08', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-08'}
