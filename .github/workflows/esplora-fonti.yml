@@ -1,0 +1,29 @@
+name: fase 1 - esplora fonti
+
+on:
+  workflow_dispatch:
+
+jobs:
+  esplora:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Esplora le fonti
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
+          DESTATIS_TOKEN: ${{ secrets.DESTATIS_TOKEN }}
+          DESTATIS_USER: ${{ secrets.DESTATIS_USER }}
+          DESTATIS_PASS: ${{ secrets.DESTATIS_PASS }}
+        run: python esplora_fonti.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: esito-fonti
+          path: esito/
+          retention-days: 30
