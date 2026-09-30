@@ -31,7 +31,8 @@ def _riepilogo(m):
     g = lambda s: None if s is None or t not in s.index or pd.isna(s[t]) else float(s[t])  # noqa: E731
     prec = t - 1
     return {
-        "ultimo": str(t), "indice": g(m["indice"]), "mm": g(m["mm"]), "aa": g(m["aa"]),
+        "ultimo": str(t), "preliminare": "preliminare" in (m["fonte"] or "").lower(),
+        "indice": g(m["indice"]), "mm": g(m["mm"]), "aa": g(m["aa"]),
         "aa_prec": None if prec not in m["aa"].index or pd.isna(m["aa"][prec]) else float(m["aa"][prec]),
         "mom": g(m["mom"]) if m["mom"] is not None else None,
         "potere": potere.confronto_livelli(m["indice"], t),
@@ -43,7 +44,8 @@ def calcola(arch, evento=None):
     ris = {"evento": evento or {}, "aree": {}, "ultimo": str(arch.ultimo_periodo())}
     for area in config.AREE:
         misure = [m for m in config.MISURE if m in arch.misure(area)]
-        misure += [m for m in arch.misure(area) if m not in misure and not m.startswith("bce_")]
+        misure += [m for m in arch.misure(area) if m not in misure and not m.startswith("bce_")
+                   and not m.endswith("_naz")]
         if not misure:
             continue
         a = {"misure": {}, "riepilogo": {}, "proiezioni": {}}

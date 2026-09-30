@@ -20,7 +20,7 @@ BASE = "https://data-api.ecb.europa.eu/service/data"
 
 # voce BCE -> misura in archivio (tassi annui %)
 SOTTOSTANTI = {"TRIM10": "bce_troncata10", "TRIM25": "bce_troncata25", "TRIM30": "bce_troncata30",
-               "TRIM50": "bce_troncata50", "WGTMED": "bce_mediana", "SPRXEF": "bce_supercore_2018",
+               "TRIM50": "bce_troncata50", "WGTMED": "bce_mediana", "SPRXEF": "bce_supercore",
                "PCCI00": "bce_pcci", "PCCXEF": "bce_pcci_core"}
 # voce BCE -> misura destagionalizzata
 DESTAG = {"000000": "hicp_headline", "XEF000": "hicp_core", "XE0000": "hicp_ex_energia",

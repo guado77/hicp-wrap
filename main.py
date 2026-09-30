@@ -32,6 +32,25 @@ def invia(percorsi, didascalia):
         print(f"[telegram] {os.path.basename(p)}: HTTP {x.status_code}")
 
 
+NOMI = {"EA": "area euro", "IT": "Italia", "DE": "Germania", "FR": "Francia", "ES": "Spagna"}
+MESI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre",
+        "ottobre", "novembre", "dicembre"]
+
+
+def descrivi(nov, prel):
+    """Titolo dell'uscita: 'stima preliminare di settembre 2026: Italia, Spagna; ...'."""
+    gruppi = {}
+    for k, mese in nov.items():
+        area, mis = k.split("|")
+        tipo = "stima preliminare" if prel.get(k) else ("CPI nazionale" if mis == "cpi_headline" else "HICP")
+        gruppi.setdefault((tipo, mese), set()).add(NOMI.get(area, area))
+    parti = []
+    for (tipo, mese), aree in sorted(gruppi.items(), key=lambda t: (t[0][1], t[0][0]), reverse=True):
+        y, m = mese.split("-")
+        parti.append(f"{tipo} di {MESI[int(m) - 1]} {y}: {', '.join(sorted(aree))}")
+    return "; ".join(parti)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--esempio", action="store_true")
@@ -55,12 +74,13 @@ def main():
 
     if not a.esempio:
         pn = os.path.join(cartella, "novita.json")
-        nov = json.load(open(pn, encoding="utf-8")).get("nuovi", {}) if os.path.exists(pn) else {}
+        info = json.load(open(pn, encoding="utf-8")) if os.path.exists(pn) else {}
+        nov, prel = info.get("nuovi", {}), info.get("preliminare", {})
         if a.solo_se_nuovo and not nov:
             print("nessun dato nuovo: niente da pubblicare")
             return
         if not a.evento and nov:
-            a.evento = "nuovi dati: " + ", ".join(f"{k.split('|')[0]} {v}" for k, v in sorted(nov.items()))
+            a.evento = descrivi(nov, prel)
 
     ris = motore.calcola(Archivio(cartella), evento={"descrizione": a.evento} if a.evento else None)
     nome = f"inflazione-{ris['ultimo']}"
@@ -74,7 +94,11 @@ def main():
     p_xls = excel.costruisci(ris, os.path.join(a.uscita, nome + ".xlsx"))
     print(f"scritti {p_pdf} e {p_xls}")
     if a.invia:
-        invia([p_pdf, p_xls], f"Inflazione area euro - {a.evento or ris['ultimo']}")
+        allegati = [p_pdf, p_xls]
+        pl = os.path.join(cartella, "log_fonti.txt")
+        if not a.esempio and os.path.exists(pl):
+            allegati.append(pl)                       # diagnostica delle fonti, utile nelle prime settimane
+        invia(allegati, f"Inflazione area euro - {a.evento or ris['ultimo']}"[:1000])
 
 
 if __name__ == "__main__":

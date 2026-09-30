@@ -1,6 +1,10 @@
 name: aggiorna e pubblica
 
 on:
+  schedule:
+    # feriali, dopo le uscite del mattino (INSEE, INE, Istat, Eurostat) e del pomeriggio (Destatis)
+    - cron: "30 10 * * 1-5"
+    - cron: "30 13 * * 1-5"
   workflow_dispatch:
     inputs:
       commento:
@@ -27,6 +31,10 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Scarica dalle fonti
+        env:
+          DESTATIS_TOKEN: ${{ secrets.DESTATIS_TOKEN }}
+          DESTATIS_USER: ${{ secrets.DESTATIS_USER }}
+          DESTATIS_PASS: ${{ secrets.DESTATIS_PASS }}
         run: python aggiorna.py
       - name: Motore, PDF, Excel, invio
         env:
@@ -35,7 +43,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |
-          if [ "${{ inputs.commento }}" = "false" ]; then OPZ="--senza-commento"; else OPZ=""; fi
+          OPZ=""
+          if [ "${{ inputs.commento }}" = "false" ]; then OPZ="$OPZ --senza-commento"; fi
+          # dall'orario si pubblica solo se c'e' un mese nuovo; dall'avvio manuale sempre
+          if [ "${{ github.event_name }}" = "schedule" ]; then OPZ="$OPZ --solo-se-nuovo"; fi
           python main.py --invia $OPZ
       - name: Salva l'archivio aggiornato nel repo
         if: always()
@@ -54,4 +65,5 @@ jobs:
             uscita/*.pdf
             uscita/*.xlsx
             uscita/pacchetto_dati.json
+            dati/storico/log_fonti.txt
           retention-days: 30

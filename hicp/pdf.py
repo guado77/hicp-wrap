@@ -86,6 +86,14 @@ def _nome_mese(p):
     return f"{mesi[p.month - 1]} {p.year}"
 
 
+def _mese_breve(p, prel=False):
+    if not p:
+        return "n.d."
+    m = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"]
+    q = pd.Period(p, freq="M")
+    return f"{m[q.month - 1]} {q.year % 100:02d}" + (" p" if prel else "")
+
+
 def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", avviso=None):
     G = Grafici(cartella_grafici)
     aree = ris["aree"]
@@ -102,14 +110,17 @@ def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", 
     if avviso:
         st.append(Paragraph(avviso, S["avviso"]))
     st.append(Spacer(1, 8))
-    righe = [["Area", "a/a", "m/m", "Core a/a", "Momentum 3m/3m", "Fine anno*"]]
+    righe = [["Area", "Mese", "a/a", "m/m", "Core a/a", "3m/3m", "Fine anno*"]]
     for a, x in aree.items():
         h, c = x["riepilogo"].get("hicp_headline", {}), x["riepilogo"].get("hicp_core", {})
         pr = x["proiezioni"].get("hicp_headline", {}).get("a_fine", {})
-        righe.append([config.AREE[a], f(h.get("aa")), f(h.get("mm"), segno=True), f(c.get("aa")),
-                      f(h.get("mom")), f"{f(pr.get('momentum'))} / {f(pr.get('neutro_1a'))}"])
-    st.append(tabella(righe, [LARGHEZZA * 0.22] + [LARGHEZZA * 0.13] * 3 + [LARGHEZZA * 0.19, LARGHEZZA * 0.2]))
-    st.append(Paragraph("Valori in %, HICP. Momentum = variazione della media degli ultimi 3 mesi sui 3 "
+        righe.append([config.AREE[a], _mese_breve(h.get("ultimo"), h.get("preliminare")), f(h.get("aa")),
+                      f(h.get("mm"), segno=True), f(c.get("aa")), f(h.get("mom")),
+                      f"{f(pr.get('momentum'))} / {f(pr.get('neutro_1a'))}"])
+    st.append(tabella(righe, [LARGHEZZA * 0.19, LARGHEZZA * 0.15] + [LARGHEZZA * 0.11] * 4 +
+                      [LARGHEZZA * 0.22]))
+    st.append(Paragraph("Valori in %, HICP. Mese con p = stima preliminare dell'istituto nazionale, "
+                        "applicata all'ultimo indice Eurostat. Momentum = variazione della media degli ultimi 3 mesi sui 3 "
                         "precedenti, annualizzata, su serie destagionalizzata. *Inflazione annua a fine "
                         "orizzonte: scenario momentum / scenario con variazione annua invariata.", S["nota"]))
     st.append(img(G.linee({config.AREE[a]: x["misure"]["hicp_headline"]["aa"] for a, x in aree.items()
@@ -151,15 +162,16 @@ def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", 
     for a, x in aree.items():
         st.append(PageBreak())
         st.append(Paragraph(config.AREE[a], S["h1"]))
-        righe = [["Misura", "Indice 2020=100", "m/m", "a/a", "a/a mese prec.", "3m/3m ann."]]
+        righe = [["Misura", "Mese", "Indice 2020=100", "m/m", "a/a", "a/a mese prec.", "3m/3m ann."]]
         for mis, r in x["riepilogo"].items():
             nome = config.MISURE.get(mis, mis)
             if mis == "cpi_headline":
                 nome = f"CPI nazionale - {config.CPI_NAZIONALE.get(a, '')}"
-            righe.append([nome, f(r["indice"]), f(r["mm"], segno=True), f(r["aa"]), f(r["aa_prec"]), f(r["mom"])])
-        st.append(tabella(righe, [LARGHEZZA * 0.33, LARGHEZZA * 0.17] + [LARGHEZZA * 0.125] * 4))
+            righe.append([nome, _mese_breve(r["ultimo"], r.get("preliminare")), f(r["indice"]),
+                          f(r["mm"], segno=True), f(r["aa"]), f(r["aa_prec"]), f(r["mom"])])
+        st.append(tabella(righe, [LARGHEZZA * 0.29, LARGHEZZA * 0.12, LARGHEZZA * 0.14] + [LARGHEZZA * 0.1125] * 4))
         fonti_sa = sorted({m["fonte_sa"] for m in x["misure"].values() if m.get("fonte_sa")})
-        st.append(Paragraph(f"Ultimo dato: {_nome_mese(ris['ultimo'])}. Destagionalizzazione: "
+        st.append(Paragraph("p = stima preliminare. Destagionalizzazione: "
                             f"{'; '.join(fonti_sa)}.", S["nota"]))
         comp = {config.MISURE[m]: x["misure"][m]["aa"] for m in
                 ["hicp_headline", "hicp_core", "hicp_servizi", "hicp_beni"] if m in x["misure"]}
