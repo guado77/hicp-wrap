@@ -1,4 +1,4 @@
-name: fase 1 - esplora fonti
+name: fase 1b - sonda mirata
 
 on:
   workflow_dispatch:
@@ -6,24 +6,24 @@ on:
 jobs:
   esplora:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Esplora le fonti
+      - name: Sonda mirata
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
           DESTATIS_TOKEN: ${{ secrets.DESTATIS_TOKEN }}
           DESTATIS_USER: ${{ secrets.DESTATIS_USER }}
           DESTATIS_PASS: ${{ secrets.DESTATIS_PASS }}
-        run: python esplora_fonti.py
+        run: python esplora_fonti_2.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: esito-fonti
-          path: esito/
+          name: esito-fonti-2
+          path: esito2/
           retention-days: 30
