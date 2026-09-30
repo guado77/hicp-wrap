@@ -89,6 +89,10 @@ def main():
         json.dump(commento.pacchetto(ris), f, ensure_ascii=False, indent=1, default=str)
 
     testo = None if a.senza_commento else commento.scrivi(ris)
+    pl = os.path.join(cartella, "log_fonti.txt")
+    if not a.esempio and os.path.exists(pl):
+        with open(pl, "a", encoding="utf-8") as f:
+            f.write(f"\n[commento] {'saltato (--senza-commento)' if a.senza_commento else commento.ESITO}\n")
     p_pdf = pdf.costruisci(ris, os.path.join(a.uscita, nome + ".pdf"), commento=testo,
                            cartella_grafici=os.path.join(a.uscita, "grafici"), avviso=avviso)
     p_xls = excel.costruisci(ris, os.path.join(a.uscita, nome + ".xlsx"))

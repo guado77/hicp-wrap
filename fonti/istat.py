@@ -25,30 +25,37 @@ from .comune import get
 BASE = "https://esploradati.istat.it/SDMXWS/rest/data"
 PAUSA = 15
 
-REGOLE = [  # (misura, parole che devono esserci, parole che non devono esserci)
-    ("cpi_headline", [r"indice generale"], [r"tabacc", r"netto", r"escl"]),
-    ("istat_fondo", [r"componente di fondo|netto degli energetici e degli alimentari freschi"], []),
-    ("istat_carrello", [r"carrello|cura della casa e della persona"], []),
-    ("istat_alta", [r"alta frequenza"], []),
-    ("istat_media", [r"media frequenza"], []),
-    ("istat_bassa", [r"bassa frequenza"], []),
+REGOLE = [  # (misura, parole che devono esserci, parole che non devono esserci) - italiano e inglese
+    ("cpi_headline", [r"indice generale|all[- ]items|overall index"],
+     [r"tabacc", r"netto", r"escl", r"\bex\b", r"excluding", r"net of", r"tobacco", r"--"]),
+    ("istat_fondo", [r"componente di fondo|netto degli energetici e degli alimentari freschi|"
+                     r"excluding energy and (unprocessed|fresh) food|core"], [r"--"]),
+    ("istat_carrello", [r"carrello|cura della casa e della persona|household and personal care|"
+                        r"grocery|shopping basket"], []),
+    ("istat_alta", [r"alta frequenza|high[- ]frequency"], []),
+    ("istat_media", [r"media frequenza|medium[- ]frequency"], []),
+    ("istat_bassa", [r"bassa frequenza|low[- ]frequency"], []),
 ]
 
 
 def _jsondata(flusso, dal):
     x = get(f"{BASE}/IT1,{flusso},1.0/all", params={"startPeriod": dal, "format": "jsondata"},
-            timeout=300, tentativi=2, pausa=PAUSA)
+            timeout=300, tentativi=2, pausa=PAUSA, headers={"Accept-Language": "it"})
     js = x.json()
     if "data" in js:                                   # SDMX-JSON 2.0
         ds, st = js["data"]["dataSets"][0], js["data"]["structures"][0]
     else:                                              # SDMX-JSON 1.0
         ds, st = js["dataSets"][0], js["structure"]
     dser = st["dimensions"]["series"]
-    tempi = [v.get("id") for v in st["dimensions"]["observation"][0]["values"]]
+    tempi = [str(v.get("id")).replace("-M", "-") for v in st["dimensions"]["observation"][0]["values"]]
     out = []
     for chiave, s in ds.get("series", {}).items():
         idx = [int(i) for i in chiave.split(":")]
         etich = {d["id"]: (d["values"][i].get("id"), d["values"][i].get("name", "")) for d, i in zip(dser, idx)}
+        # territorio: si tiene solo l'Italia (codice IT); province e regioni escono qui
+        terr = [c for dim, (c, _) in etich.items() if re.search(r"REF_AREA|ITTER|TERR", dim, re.I)]
+        if terr and terr[0] != "IT":
+            continue
         obs = {tempi[int(k)]: v[0] for k, v in s.get("observations", {}).items() if v and v[0] is not None}
         out.append((etich, obs))
     return out
@@ -70,15 +77,17 @@ def _scegli(serie, log, flusso):
         buone.append((t, obs))
     scelte = {}
     for mis, si, no in REGOLE:
-        cand = [(len(t), t, obs) for t, obs in buone
-                if all(re.search(p, t) for p in si) and not any(re.search(p, t) for p in no)]
+        cand = [(len(t), t, obs) for t, obs in buone if obs
+                and all(re.search(p, t) for p in si) and not any(re.search(p, t) for p in no)]
         if cand:
             cand.sort(key=lambda c: c[0])
             scelte[mis] = cand[0][2]
             log(f"[istat] {flusso} {mis} <- '{cand[0][1][:150]}' ({len(cand[0][2])} mesi)")
+    con_dati = sum(1 for _, o in buone if o)
+    log(f"[istat] {flusso}: {len(serie)} serie Italia, {len(buone)} indici, {con_dati} con osservazioni")
     if not scelte:
-        log(f"[istat] {flusso}: nessuna regola soddisfatta. Esempi di etichette: "
-            + " || ".join(t[:120] for t, _ in buone[:6]))
+        log(f"[istat] {flusso}: nessuna regola soddisfatta. Etichette (ultima parte): "
+            + " || ".join(t[-90:] for t, o in buone[:25] if o))
     return scelte
 
 

@@ -95,4 +95,12 @@ DIVISIONI = {
     "12": "Assicurazioni e servizi finanziari", "13": "Cura della persona e altri",
 }
 
+SALARI_NOMI = {
+    "compensation_per_employee": "Redditi per dipendente (Eurostat)",
+    "insee_salaire_mensuel_base": "Salario mensile di base (INSEE)",
+    "istat_retribuzioni_contrattuali": "Retribuzioni contrattuali (Istat)",
+    "bce_wage_tracker": "Wage tracker BCE",
+    "bce_salari_negoziali": "Salari negoziali BCE",
+}
+
 MACRO = ["Alimentari", "Energia", "Beni industriali", "Servizi"]

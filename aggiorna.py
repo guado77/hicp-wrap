@@ -73,21 +73,32 @@ def var_da_livelli(df, area, misura_naz):
     return {str(p): float(v) for p, v in mm.dropna().items()}, x["fonte"].iloc[-1]
 
 
-def estendi(serie, area, misura, var, fonte):
-    """Aggiunge i mesi successivi all'ultimo disponibile applicando le variazioni mensili nazionali."""
+def estendi(serie, area, misura, var, fonte, annue=None, fonte_annue=""):
+    """Aggiunge i mesi successivi all'ultimo disponibile. Se per quel mese c'e' la variazione ANNUA
+    ufficiale si usa quella (indice = indice di 12 mesi prima x (1 + annua)), che riproduce il dato
+    pubblicato; altrimenti si applica la variazione mensile."""
+    annue = annue or {}
     x = serie[(serie["area"] == area) & (serie["misura"] == misura) & (serie["sa"].astype(str) == "0")]
     x = x[~x["fonte"].str.contains("stima preliminare", na=False)]      # si riparte dal dato ufficiale
     if x.empty:
         return []
     x = x.sort_values("data")
+    storia = dict(zip(x["data"], x["valore"].astype(float)))
     p = pd.Period(x["data"].iloc[-1], freq="M") + 1
     livello = float(x["valore"].iloc[-1])
     nuove = []
-    while str(p) in var:
-        livello *= 1 + var[str(p)] / 100
+    while str(p) in var or str(p) in annue:
+        base12 = storia.get(str(p - 12))
+        if str(p) in annue and base12:
+            livello = base12 * (1 + annue[str(p)] / 100)
+            come, f_usata = f"var. annua {annue[str(p)]:+.1f}%", fonte_annue
+        else:
+            livello *= 1 + var[str(p)] / 100
+            come, f_usata = f"var. mensile {var[str(p)]:+.2f}%", fonte
+        storia[str(p)] = livello
         nuove.append((area, misura, 0, str(p), round(livello, 4),
-                      f"stima preliminare {fonte} (var. mensile applicata all'ultimo indice)"))
-        log(f"[preliminare] {area} {misura} {p}: var. mensile {var[str(p)]:+.2f}% da {fonte}")
+                      f"stima preliminare {f_usata} ({come} applicata all'indice)"))
+        log(f"[preliminare] {area} {misura} {p}: {come} da {f_usata}")
         p += 1
     return nuove
 
@@ -126,8 +137,11 @@ def main():
             nuove += estendi(serie, area, "hicp_headline", var, fonte)
         if not var_ine.empty:
             for mis, g in var_ine.groupby("misura"):
-                nuove += estendi(serie, "ES", mis, dict(zip(g["data"], g["var_mensile"].astype(float))),
-                                 g["fonte"].iloc[-1])
+                mm, aa = g[g["tipo"] == "mm"], g[g["tipo"] == "aa"]
+                nuove += estendi(serie, "ES", mis, dict(zip(mm["data"], mm["var"].astype(float))),
+                                 mm["fonte"].iloc[-1] if len(mm) else "",
+                                 annue=dict(zip(aa["data"], aa["var"].astype(float))),
+                                 fonte_annue=aa["fonte"].iloc[-1] if len(aa) else "")
         if nuove:
             serie = fondi("serie.csv", pd.DataFrame(nuove, columns=COLONNE_SERIE))
 

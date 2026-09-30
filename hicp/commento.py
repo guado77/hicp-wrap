@@ -112,11 +112,16 @@ def pacchetto(ris):
     return out
 
 
+ESITO = ""
+
+
 def scrivi(ris, comunicati=None):
     """Restituisce il testo del commento, oppure None se il modello non risponde."""
     chiave = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    global ESITO
     if not chiave:
-        print("[commento] ANTHROPIC_API_KEY assente: niente commento")
+        ESITO = "ANTHROPIC_API_KEY assente nei secret del repo"
+        print(f"[commento] {ESITO}")
         return None
     dati = json.dumps(pacchetto(ris), ensure_ascii=False, indent=1)
     com = "\n\n".join(f"--- {c['fonte']} - {c['titolo']} ---\n{c['testo'][:12000]}" for c in (comunicati or []))
@@ -127,9 +132,12 @@ def scrivi(ris, comunicati=None):
             json={"model": MODELLO, "max_tokens": 8000, "system": ISTRUZIONI,
                   "messages": [{"role": "user", "content": messaggio}]})
         if x.status_code != 200:
-            print(f"[commento] HTTP {x.status_code}: {x.text[:400]}")
+            ESITO = f"modello {MODELLO}: HTTP {x.status_code} {x.text[:300]}"
+            print(f"[commento] {ESITO}")
             return None
+        ESITO = f"ok, modello {MODELLO}"
         return "".join(b.get("text", "") for b in x.json().get("content", []) if b.get("type") == "text")
     except Exception as e:  # noqa: BLE001
-        print(f"[commento] errore {type(e).__name__}: {e}")
+        ESITO = f"modello {MODELLO}: {type(e).__name__}: {e}"
+        print(f"[commento] {ESITO}")
         return None

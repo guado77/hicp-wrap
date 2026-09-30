@@ -79,11 +79,20 @@ def pesi(area, classi):
 
 
 def salari(area):
-    """Redditi da lavoro dipendente per dipendente, trimestrale, destagionalizzato (livello)."""
-    _, d1 = _con_geo(area, "namq_10_a10", [("unit", "CP_MEUR"), ("s_adj", "SCA"), ("nace_r2", "TOTAL"),
-                                           ("na_item", "D1"), ("sinceTimePeriod", "2000-Q1")], GEO_CN)
-    _, dip = _con_geo(area, "namq_10_a10_e", [("unit", "THS_PER"), ("s_adj", "SCA"), ("nace_r2", "TOTAL"),
-                                              ("na_item", "SAL_DC"), ("sinceTimePeriod", "2000-Q1")], GEO_CN)
+    """Redditi da lavoro dipendente per dipendente, trimestrale (livello). Si prova la correzione
+    stagionale e di calendario, poi le altre: non tutti i paesi pubblicano la stessa."""
+    d1 = dip = None
+    for adj in ["SCA", "SA", "CA", "NSA"]:
+        try:
+            _, d1 = _con_geo(area, "namq_10_a10", [("unit", "CP_MEUR"), ("s_adj", adj), ("nace_r2", "TOTAL"),
+                                                   ("na_item", "D1"), ("sinceTimePeriod", "2000-Q1")], GEO_CN)
+            _, dip = _con_geo(area, "namq_10_a10_e", [("unit", "THS_PER"), ("s_adj", adj), ("nace_r2", "TOTAL"),
+                                                      ("na_item", "SAL_DC"), ("sinceTimePeriod", "2000-Q1")], GEO_CN)
+            break
+        except Exception:  # noqa: BLE001
+            d1 = dip = None
+    if not d1 or not dip:
+        raise RuntimeError("nessuna correzione stagionale disponibile")
     a = {r["time"]: r["valore"] for r in d1}
     b = {r["time"]: r["valore"] for r in dip}
     out = [(area, "compensation_per_employee", "Q", t.replace("-", ""), a[t] / b[t] * 1000, "livello",

@@ -48,7 +48,7 @@ def tabella(nome, cred, log):
                             "startyear": "2000", "language": "de"})
     if x.status_code != 200 or ";" not in x.text[:2000]:
         raise RuntimeError(f"HTTP {x.status_code}: {x.text[:300]}")
-    righe = list(csv.DictReader(io.StringIO(x.text.lstrip("\ufeff")), delimiter=";"))
+    righe = list(csv.DictReader(io.StringIO(x.text.lstrip("\ufeff"), newline=""), delimiter=";"))
     campi = list(righe[0].keys()) if righe else []
     log(f"[destatis] {nome}: {len(righe)} righe; colonne {campi[:14]}")
     c_anno = next((c for c in campi if c.lower() in ("time", "zeit", "jahr")), None)

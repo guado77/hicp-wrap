@@ -11,7 +11,16 @@ from .comune import get
 BASE = "https://servicios.ine.es/wstempus/js/ES"
 
 INDICI = {"IPC290751": "cpi_headline"}                        # IPC generale, indice
-# variazioni mensili (%) usate per estendere l'ultimo mese (stima preliminare)
+# variazioni annue (%): preferite per la stima preliminare, perche' riproducono esattamente il
+# dato annuo ufficiale (la variazione mensile arrotondata al decimo sposta l'annua fino a 0,1)
+VAR_ANNUE = {
+    "IPC290750": "cpi_headline",
+    "IPCA8090": "hicp_headline",
+    "IPCA9233": "hicp_energia",
+    "IPCA9236": "hicp_servizi",
+    "IPCA16281": "hicp_alimentari",
+}
+# variazioni mensili (%): ripiego se manca l'annua
 VAR_MENSILI = {
     "IPC290752": "cpi_headline",
     "IPCA8092": "hicp_headline",
@@ -42,12 +51,13 @@ def scarica(log=print):
             log(f"[ine] {cod} {mis}: {len(s)} mesi, ultimo {max(s) if s else '-'}")
         except Exception as e:  # noqa: BLE001
             log(f"[ine] {cod}: {e}")
-    for cod, mis in VAR_MENSILI.items():
-        try:
-            s = _serie(cod, 6)
-            var += [("ES", mis, t, v, f"INE {cod}") for t, v in s.items()]
-            log(f"[ine] {cod} var. mensile {mis}: ultimo {max(s) if s else '-'}")
-        except Exception as e:  # noqa: BLE001
-            log(f"[ine] {cod}: {e}")
+    for tipo, codici in [("aa", VAR_ANNUE), ("mm", VAR_MENSILI)]:
+        for cod, mis in codici.items():
+            try:
+                s = _serie(cod, 6)
+                var += [("ES", mis, t, v, tipo, f"INE {cod}") for t, v in s.items()]
+                log(f"[ine] {cod} var. {'annua' if tipo == 'aa' else 'mensile'} {mis}: ultimo {max(s) if s else '-'}")
+            except Exception as e:  # noqa: BLE001
+                log(f"[ine] {cod}: {e}")
     return (pd.DataFrame(righe, columns=["area", "misura", "sa", "data", "valore", "fonte"]),
-            pd.DataFrame(var, columns=["area", "misura", "data", "var_mensile", "fonte"]))
+            pd.DataFrame(var, columns=["area", "misura", "data", "var", "tipo", "fonte"]))

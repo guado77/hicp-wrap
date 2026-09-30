@@ -19,8 +19,14 @@ SMB = "010562695"
 
 
 def _obs(testo):
-    return {t: float(v) for t, v in re.findall(r'<Obs\b[^>]*TIME_PERIOD="([^"]+)"[^>]*OBS_VALUE="([^"]*)"', testo)
-            if v not in ("", "NaN")}
+    """Ogni <Obs .../>: attributi letti in qualunque ordine."""
+    out = {}
+    for m in re.finditer(r"<(?:\w+:)?Obs\b([^>]*)/?>", testo):
+        a = dict(re.findall(r'(\w+)="([^"]*)"', m.group(1)))
+        t, v = a.get("TIME_PERIOD"), a.get("OBS_VALUE")
+        if t and v not in (None, "", "NaN"):
+            out[t] = float(v)
+    return out
 
 
 def serie_idbank(idbank, dal="2000-01"):

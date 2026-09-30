@@ -22,19 +22,19 @@ GRIGIO = colors.HexColor("#EFEFEF")
 LARGHEZZA = A4[0] - 3.2 * cm
 
 S = {
-    "titolo": ParagraphStyle("titolo", fontName="Helvetica-Bold", fontSize=30, leading=36, textColor=BLU),
-    "h1": ParagraphStyle("h1", fontName="Helvetica-Bold", fontSize=24, leading=30, textColor=BLU,
+    "titolo": ParagraphStyle("titolo", fontName="Helvetica-Bold", fontSize=24, leading=29, textColor=BLU),
+    "h1": ParagraphStyle("h1", fontName="Helvetica-Bold", fontSize=20, leading=25, textColor=BLU,
                          spaceBefore=6, spaceAfter=10),
-    "h2": ParagraphStyle("h2", fontName="Helvetica-Bold", fontSize=19, leading=24, textColor=colors.black,
+    "h2": ParagraphStyle("h2", fontName="Helvetica-Bold", fontSize=15, leading=19, textColor=colors.black,
                          spaceBefore=12, spaceAfter=6),
-    "corpo": ParagraphStyle("corpo", fontName="Helvetica", fontSize=16, leading=22, alignment=TA_LEFT,
-                            spaceAfter=8),
-    "nota": ParagraphStyle("nota", fontName="Helvetica", fontSize=13, leading=17, alignment=TA_LEFT,
+    "corpo": ParagraphStyle("corpo", fontName="Helvetica", fontSize=12.5, leading=17, alignment=TA_LEFT,
+                            spaceAfter=7),
+    "nota": ParagraphStyle("nota", fontName="Helvetica", fontSize=10.5, leading=14, alignment=TA_LEFT,
                            textColor=colors.HexColor("#222222"), spaceAfter=6),
-    "cella": ParagraphStyle("cella", fontName="Helvetica", fontSize=13, leading=16),
-    "cella_b": ParagraphStyle("cella_b", fontName="Helvetica-Bold", fontSize=13, leading=16,
+    "cella": ParagraphStyle("cella", fontName="Helvetica", fontSize=11, leading=13.5),
+    "cella_b": ParagraphStyle("cella_b", fontName="Helvetica-Bold", fontSize=11, leading=13.5,
                               textColor=colors.white),
-    "avviso": ParagraphStyle("avviso", fontName="Helvetica-Bold", fontSize=16, leading=22,
+    "avviso": ParagraphStyle("avviso", fontName="Helvetica-Bold", fontSize=13, leading=17,
                              textColor=colors.HexColor("#B2182B"), spaceAfter=8),
 }
 
@@ -58,7 +58,7 @@ def tabella(righe, larghezze=None, prima_sx=True):
     st = [("BACKGROUND", (0, 0), (-1, 0), BLU),
           ("GRID", (0, 0), (-1, -1), 0.6, colors.HexColor("#888888")),
           ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-          ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5)]
+          ("TOPPADDING", (0, 0), (-1, -1), 3), ("BOTTOMPADDING", (0, 0), (-1, -1), 3)]
     for i in range(2, len(righe), 2):
         st.append(("BACKGROUND", (0, i), (-1, i), GRIGIO))
     t.setStyle(TableStyle(st))
@@ -194,7 +194,6 @@ def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", 
         # proiezioni
         if x["proiezioni"]:
             pr0 = next(iter(x["proiezioni"].values()))
-            st.append(Paragraph(f"Proiezioni a {_nome_mese(pr0['fine'])}", S["h2"]))
             sc = list(config.SCENARI)
             righe = [["Misura", "a/a oggi"] + ["Mom.", "Neutro 1a", "Media 3a", "Media 5a", "Med. 5a", "2%"]]
             for mis in ["hicp_headline", "hicp_core", "hicp_servizi", "hicp_beni", "hicp_alimentari",
@@ -204,11 +203,13 @@ def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", 
                     continue
                 nome = config.MISURE.get(mis, mis).split(" (")[0]
                 righe.append([nome, f(p["yoy_ultimo"])] + [f(p["a_fine"].get(k)) for k in sc])
-            st.append(tabella(righe, [LARGHEZZA * 0.24, LARGHEZZA * 0.1] + [LARGHEZZA * 0.11] * 6))
-            st.append(Paragraph("Inflazione annua % alla fine dell'orizzonte in ciascuno scenario. Neutro 1a: "
-                                "stesse variazioni mensili dell'anno prima (a/a invariato). Media/mediana: "
-                                "variazione tipica di ciascun mese di calendario. La mediana a 5 anni "
-                                "assorbe gli anni anomali come il 2022.", S["nota"]))
+            st.append(KeepTogether([
+                Paragraph(f"Proiezioni a {_nome_mese(pr0['fine'])}", S["h2"]),
+                tabella(righe, [LARGHEZZA * 0.24, LARGHEZZA * 0.1] + [LARGHEZZA * 0.11] * 6),
+                Paragraph("Inflazione annua % alla fine dell'orizzonte in ciascuno scenario. Neutro 1a: "
+                          "stesse variazioni mensili dell'anno prima (a/a invariato). Media/mediana: "
+                          "variazione tipica di ciascun mese di calendario. La mediana a 5 anni "
+                          "assorbe gli anni anomali come il 2022.", S["nota"])]))
             p = x["proiezioni"]["hicp_headline"]
             st.append(img(G.proiezioni(h["aa"], p, f"{config.AREE[a]}: HICP generale, scenari a fine orizzonte",
                                        f"{a}_proiez")))
@@ -329,7 +330,7 @@ def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", 
         for mis, d in (x.get("salari") or {}).items():
             c = d["cumulato"].get("gen 2020")
             if c:
-                righe.append([config.AREE[a], mis.replace("_", " "), c["fino_a"], f(c["salari"], 1, True),
+                righe.append([config.AREE[a], config.SALARI_NOMI.get(mis, mis.replace("_", " ")), c["fino_a"], f(c["salari"], 1, True),
                               f(c["prezzi"], 1, True), f(c["reale"], 1, True)])
             if mis == "compensation_per_employee" and d["tipo"] == "livello":
                 tab = d["tabella"]
@@ -361,8 +362,13 @@ def costruisci(ris, percorso, commento=None, cartella_grafici="uscita/grafici", 
     ]
     for n in note:
         st.append(Paragraph(n, S["corpo"]))
-    fonti = sorted({m["fonte"] for x in aree.values() for m in x["misure"].values() if m.get("fonte")})
-    st.append(Paragraph("Fonti: " + "; ".join(fonti), S["nota"]))
+    istituti = set()
+    for x in aree.values():
+        for m in x["misure"].values():
+            t = (m.get("fonte") or "").replace("stima preliminare ", "")
+            istituti.add(t.split(" ")[0])
+    st.append(Paragraph("Fonti: " + ", ".join(sorted(i for i in istituti if i)) + "; BCE Data Portal; "
+                        "stime preliminari degli istituti nazionali dove indicato con p.", S["nota"]))
 
     os.makedirs(os.path.dirname(percorso) or ".", exist_ok=True)
     doc = SimpleDocTemplate(percorso, pagesize=A4, leftMargin=1.6 * cm, rightMargin=1.6 * cm,
