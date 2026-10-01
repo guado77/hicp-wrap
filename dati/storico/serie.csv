@@ -10185,7 +10185,7 @@ ES,cpi_headline,0,2026-05,102.951,INE IPC290751
 ES,cpi_headline,0,2026-06,103.598,INE IPC290751
 ES,cpi_headline,0,2026-07,103.899,INE IPC290751
 ES,cpi_headline,0,2026-08,104.638,INE IPC290751
-ES,cpi_headline,0,2026-09,104.9519,stima preliminare INE IPC290752 (var. mensile applicata all'ultimo indice)
+ES,cpi_headline,0,2026-09,104.9619,stima preliminare INE IPC290750 (var. annua +4.9% applicata all'indice)
 ES,hicp_alimentari,0,2000-01,44.33,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2000-02,44.14,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2000-03,44.15,Eurostat prc_hicp_minr ES
@@ -10506,7 +10506,7 @@ ES,hicp_alimentari,0,2026-05,102.62,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2026-06,102.68,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2026-07,102.06,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2026-08,101.94,Eurostat prc_hicp_minr ES
-ES,hicp_alimentari,0,2026-09,102.2458,stima preliminare INE IPCA16282 (var. mensile applicata all'ultimo indice)
+ES,hicp_alimentari,0,2026-09,102.1762,stima preliminare INE IPCA16281 (var. annua +2.7% applicata all'indice)
 ES,hicp_beni,0,2000-12,58.84,Eurostat prc_hicp_minr ES
 ES,hicp_beni,0,2001-01,57.96,Eurostat prc_hicp_minr ES
 ES,hicp_beni,0,2001-02,57.94,Eurostat prc_hicp_minr ES
@@ -11445,7 +11445,7 @@ ES,hicp_energia,0,2026-05,102.65,Eurostat prc_hicp_minr ES
 ES,hicp_energia,0,2026-06,105.2,Eurostat prc_hicp_minr ES
 ES,hicp_energia,0,2026-07,110.29,Eurostat prc_hicp_minr ES
 ES,hicp_energia,0,2026-08,116.56,Eurostat prc_hicp_minr ES
-ES,hicp_energia,0,2026-09,121.1058,stima preliminare INE IPCA9235 (var. mensile applicata all'ultimo indice)
+ES,hicp_energia,0,2026-09,121.1582,stima preliminare INE IPCA9233 (var. annua +22.0% applicata all'indice)
 ES,hicp_ex_energia,0,2000-12,58.58,Eurostat prc_hicp_minr ES
 ES,hicp_ex_energia,0,2001-01,58.35,Eurostat prc_hicp_minr ES
 ES,hicp_ex_energia,0,2001-02,58.34,Eurostat prc_hicp_minr ES
@@ -12075,7 +12075,7 @@ ES,hicp_headline,0,2026-05,103.45,Eurostat prc_hicp_minr ES
 ES,hicp_headline,0,2026-06,104.08,Eurostat prc_hicp_minr ES
 ES,hicp_headline,0,2026-07,104.06,Eurostat prc_hicp_minr ES
 ES,hicp_headline,0,2026-08,104.74,Eurostat prc_hicp_minr ES
-ES,hicp_headline,0,2026-09,105.3684,stima preliminare INE IPCA8092 (var. mensile applicata all'ultimo indice)
+ES,hicp_headline,0,2026-09,105.441,stima preliminare INE IPCA8090 (var. annua +5.0% applicata all'indice)
 ES,hicp_servizi,0,2000-12,55.14,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2001-01,55.5,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2001-02,55.6,Eurostat prc_hicp_minr ES
@@ -12385,7 +12385,7 @@ ES,hicp_servizi,0,2026-05,103.88,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2026-06,104.72,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2026-07,105.45,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2026-08,105.84,Eurostat prc_hicp_minr ES
-ES,hicp_servizi,0,2026-09,105.205,stima preliminare INE IPCA9238 (var. mensile applicata all'ultimo indice)
+ES,hicp_servizi,0,2026-09,105.2212,stima preliminare INE IPCA9236 (var. annua +4.2% applicata all'indice)
 ES,hicp_trasporti,0,2000-01,54.27,Eurostat prc_hicp_minr ES
 ES,hicp_trasporti,0,2000-02,54.67,Eurostat prc_hicp_minr ES
 ES,hicp_trasporti,0,2000-03,55.6,Eurostat prc_hicp_minr ES
@@ -14947,7 +14947,7 @@ FR,hicp_headline,0,2026-05,102.71,Eurostat prc_hicp_minr FR
 FR,hicp_headline,0,2026-06,102.36,Eurostat prc_hicp_minr FR
 FR,hicp_headline,0,2026-07,103.0,Eurostat prc_hicp_minr FR
 FR,hicp_headline,0,2026-08,103.76,Eurostat prc_hicp_minr FR
-FR,hicp_headline,0,2026-09,103.39,stima preliminare INSEE 011812231 (var. mensile applicata all'ultimo indice)
+FR,hicp_headline,0,2026-09,103.39,stima preliminare INSEE 011812231 (var. mensile -0.36% applicata all'indice)
 FR,hicp_headline_naz,0,2000-01,62.23,INSEE 011812231
 FR,hicp_headline_naz,0,2000-02,62.31,INSEE 011812231
 FR,hicp_headline_naz,0,2000-03,62.62,INSEE 011812231

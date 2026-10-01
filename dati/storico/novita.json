@@ -1,5 +1,13 @@
 {
- "prima": {},
+ "prima": {
+  "DE|hicp_headline": "2026-08",
+  "EA|hicp_headline": "2026-08",
+  "ES|cpi_headline": "2026-09",
+  "ES|hicp_headline": "2026-09",
+  "FR|cpi_headline": "2026-09",
+  "FR|hicp_headline": "2026-09",
+  "IT|hicp_headline": "2026-08"
+ },
  "dopo": {
   "DE|hicp_headline": "2026-08",
   "EA|hicp_headline": "2026-08",
@@ -9,22 +17,6 @@
   "FR|hicp_headline": "2026-09",
   "IT|hicp_headline": "2026-08"
  },
- "nuovi": {
-  "DE|hicp_headline": "2026-08",
-  "EA|hicp_headline": "2026-08",
-  "ES|cpi_headline": "2026-09",
-  "ES|hicp_headline": "2026-09",
-  "FR|cpi_headline": "2026-09",
-  "FR|hicp_headline": "2026-09",
-  "IT|hicp_headline": "2026-08"
- },
- "preliminare": {
-  "DE|hicp_headline": false,
-  "EA|hicp_headline": false,
-  "ES|cpi_headline": true,
-  "ES|hicp_headline": true,
-  "FR|cpi_headline": false,
-  "FR|hicp_headline": true,
-  "IT|hicp_headline": false
- }
+ "nuovi": {},
+ "preliminare": {}
 }

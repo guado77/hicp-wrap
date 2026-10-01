@@ -6,40 +6,52 @@
 [eurostat] IT: salari 106 trimestri
 [eurostat] DE (DE): 130 classi a 4 cifre
 [eurostat] DE: aggregati 2560 righe, voci 38763, pesi 3510
-[eurostat] DE: salari non disponibili (namq_10_a10 DE: nessun codice geo ha risposto (None))
+[eurostat] DE: salari 106 trimestri
 [eurostat] FR (FR): 127 classi a 4 cifre
 [eurostat] FR: aggregati 2560 righe, voci 38432, pesi 3429
-[eurostat] FR: salari non disponibili (namq_10_a10 FR: nessun codice geo ha risposto (None))
+[eurostat] FR: salari 106 trimestri
 [eurostat] ES (ES): 108 classi a 4 cifre
 [eurostat] ES: aggregati 2516 righe, voci 31217, pesi 2916
 [eurostat] ES: salari 106 trimestri
 [bce] dataflow HICP: chiave con 6 dimensioni, 1966 serie area euro
 [bce] HICP: 15 serie utili
 [bce] serie 15, salari 146 osservazioni
-[istat] 167_744_DF_DCSP_NIC1B2015_1: nessuna regola soddisfatta. Esempi di etichette: monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | all items || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | all items ex || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- food and  || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- alcoholic || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- clothing  || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- housing, 
-[istat] 167_745_DF_DCSP_NIC1B2025_1 cpi_headline <- 'monthly | como | consumer price index for the whole nation (base 2025=100) - monthly data | index number | indice generale' (0 mesi)
-[istat] 167_744_DF_DCSP_NIC1B2015_2: nessuna regola soddisfatta. Esempi di etichette: monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | all items || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- all-items || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | overall inde || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | overall inde || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | overall inde || monthly | italy | consumer price index for the whole nation (base 2015=100) - monthly data | index number | -- administe
-[istat] 167_745_DF_DCSP_NIC1B2025_2 istat_carrello <- 'monthly | italy | consumer price index for the whole nation (base 2025=100) - monthly data | index number | beni alimentari, per la cura della casa e ' (0 mesi)
-[istat] 168_761 IPCA cpi_headline <- 'monthly | italy | harmonized index of consumer prices (base 2025=100) - monthly data | index number | indice generale' (0 mesi)
-[istat] retribuzioni: serie 'totale economia per dipendente' non riconosciuta
+[istat] 167_744_DF_DCSP_NIC1B2015_1: 42 serie Italia, 42 indici, 0 con osservazioni
+[istat] 167_744_DF_DCSP_NIC1B2015_1: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 167_745_DF_DCSP_NIC1B2025_1: 45 serie Italia, 15 indici, 0 con osservazioni
+[istat] 167_745_DF_DCSP_NIC1B2025_1: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 167_744_DF_DCSP_NIC1B2015_2: 114 serie Italia, 38 indici, 0 con osservazioni
+[istat] 167_744_DF_DCSP_NIC1B2015_2: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 167_745_DF_DCSP_NIC1B2025_2: 57 serie Italia, 19 indici, 0 con osservazioni
+[istat] 167_745_DF_DCSP_NIC1B2025_2: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 168_761 IPCA: 1359 serie Italia, 453 indici, 0 con osservazioni
+[istat] 168_761 IPCA: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] retribuzioni <- 'annuale | italia | indice della retribuzione contrattuale per dipendente - base dicembre 2021=100 | dati grezzi | totale dipendenti al netto dei dirig' (0 mesi)
 [insee] IPCH 011812231: 321 mesi, ultimo 2026-09
 [insee] IPC-2025 dimensioni ['FREQ', 'INDICATEUR', 'FORME-VENTE', 'COICOP2018', 'PRIX_CONSO', 'NATURE', 'MENAGES_IPC', 'REF_AREA', 'UNIT_MEASURE', 'CORRECTION', 'BASIND', 'SERIE_ARRETEE'], chiave 'M...00..INDICE..FE....'
 [insee] IPC scelto 011814630: Indice des prix à la consommation - Base 2025 - Ensemble des ménages - France - Nomenclature Coicop : 00 - Ensemble
 [insee] IPC 011814630: 321 mesi, ultimo 2026-09
 [insee] salari 010562695: 36 trimestri
 [ine] IPC290751 cpi_headline: 296 mesi, ultimo 2026-08
+[ine] IPC290750 var. annua cpi_headline: ultimo 2026-09
+[ine] IPCA8090 var. annua hicp_headline: ultimo 2026-09
+[ine] IPCA9233 var. annua hicp_energia: ultimo 2026-09
+[ine] IPCA9236 var. annua hicp_servizi: ultimo 2026-09
+[ine] IPCA16281 var. annua hicp_alimentari: ultimo 2026-09
 [ine] IPC290752 var. mensile cpi_headline: ultimo 2026-09
 [ine] IPCA8092 var. mensile hicp_headline: ultimo 2026-09
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: new-line character seen in unquoted field - do you need to open the file with newline=''?
-[destatis] 61121-0002: new-line character seen in unquoted field - do you need to open the file with newline=''?
+[destatis] 61111-0002: 68 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00��A]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1790874841668_de_flat.csv��͎\x1c�u��}�B��H�����\x1a�,\x04(\x1f\x16 9��l��4�\x06�(a8\x14\x02_O�"\x01��\x05�\x16�4\x1dX��\x17}�', "�xa�\x1c������x�s����?o��\x1f�>?~���������_��\x7f�������Ç\x1f���������\x1f�\x1e�_����\x7f��\x0f��O~������ջ�?�W���\x0f\x7fh��ߺ��o]���\x1a���\x1f������\x0f��ջ7��\x7f��?�O���~�'��4_�w�ׇ�WO�����釧�Ƿ�o�y���������ѧ\x0f��~����7�\\>��~u���ۧ�2M�����\x7f�|�����\x0f���.��?^>��\x17_���'\x7f��7o\x7f������˧\x7f�˶���\x7f�2��<M�\x7f�����˿�3\x1cuz1_���\x10\x1f�\x0c�yih�%�9^>�����-<��ũ��d���k�����}��\x08i�|�����>�´�/���.�{��\x0f���g����W}���\x0f߽zx��M=��+\x7fS!��⸿�8]_"]
+[destatis] 61111-0002: 'list' object has no attribute 'strip'
+[destatis] 61121-0002: 5 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00\x99A]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1790874845340_de_flat.csv՚�n�0\x14@��\x15|�[9\x0e�DW{@b[[\tZ�\x15��\x03\x16�\x16��q����/���~�~a\x01*�d�Tߥ��\x0b"6q�Бs�����wi�IK����y�P��:�����+���}{\x1e��v-u*��i����W/\x06�1:M*��O�g�7�ƪ���xu�֙�Mk�Uj�y[�y�z������OQ\x10�\x00N�^\x15yZ�J\x1b�{3�\x13-�����Z���B�����\x15��', '']
+[destatis] 61121-0002 hicp_headline_naz: 0 mesi, ultimo -
 [preliminare] FR hicp_headline 2026-09: var. mensile -0.36% da INSEE 011812231
-[preliminare] ES cpi_headline 2026-09: var. mensile +0.30% da INE IPC290752
-[preliminare] ES hicp_alimentari 2026-09: var. mensile +0.30% da INE IPCA16282
-[preliminare] ES hicp_energia 2026-09: var. mensile +3.90% da INE IPCA9235
-[preliminare] ES hicp_headline 2026-09: var. mensile +0.60% da INE IPCA8092
-[preliminare] ES hicp_servizi 2026-09: var. mensile -0.60% da INE IPCA9238
+[preliminare] ES cpi_headline 2026-09: var. annua +4.9% da INE IPC290750
+[preliminare] ES hicp_alimentari 2026-09: var. annua +2.7% da INE IPCA16281
+[preliminare] ES hicp_energia 2026-09: var. annua +22.0% da INE IPCA9233
+[preliminare] ES hicp_headline 2026-09: var. annua +5.0% da INE IPCA8090
+[preliminare] ES hicp_servizi 2026-09: var. annua +4.2% da INE IPCA9236
 ultimi mesi: {'DE|hicp_headline': '2026-08', 'EA|hicp_headline': '2026-08', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-08'}
-NOVITA': {'DE|hicp_headline': '2026-08', 'EA|hicp_headline': '2026-08', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-08'}
+NOVITA': nessuna
