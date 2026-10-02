@@ -1,17 +1,17 @@
-[eurostat] EA (EA): 139 classi a 4 cifre
-[eurostat] EA: aggregati 2560 righe, voci 42043, pesi 3592
+[eurostat] EA (EA): 0 classi a 4 cifre
+[eurostat] EA: aggregati 2566 righe, voci 0, pesi 0
 [eurostat] EA: salari 106 trimestri
-[eurostat] IT (IT): 122 classi a 4 cifre
-[eurostat] IT: aggregati 2560 righe, voci 36224, pesi 3294
+[eurostat] IT (IT): 0 classi a 4 cifre
+[eurostat] IT: aggregati 2566 righe, voci 0, pesi 0
 [eurostat] IT: salari 106 trimestri
-[eurostat] DE (DE): 130 classi a 4 cifre
-[eurostat] DE: aggregati 2560 righe, voci 38763, pesi 3510
+[eurostat] DE (DE): 0 classi a 4 cifre
+[eurostat] DE: aggregati 2566 righe, voci 0, pesi 0
 [eurostat] DE: salari 106 trimestri
-[eurostat] FR (FR): 127 classi a 4 cifre
-[eurostat] FR: aggregati 2560 righe, voci 38432, pesi 3429
+[eurostat] FR (FR): 0 classi a 4 cifre
+[eurostat] FR: aggregati 2566 righe, voci 0, pesi 0
 [eurostat] FR: salari 106 trimestri
-[eurostat] ES (ES): 108 classi a 4 cifre
-[eurostat] ES: aggregati 2516 righe, voci 31217, pesi 2916
+[eurostat] ES (ES): 0 classi a 4 cifre
+[eurostat] ES: aggregati 2522 righe, voci 0, pesi 0
 [eurostat] ES: salari 106 trimestri
 [bce] dataflow HICP: chiave con 6 dimensioni, 1966 serie area euro
 [bce] HICP: 15 serie utili
@@ -43,15 +43,11 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: 68 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00e�A]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1790881390836_de_flat.csv��͎\x1c�u��}�B��H�����\x1a�,\x04(\x1f\x16 9��l��4�\x06�(a8\x14\x02_O�"\x01��\x05�\x16�4\x1dX��\x17}�', "�xa�\x1c������x�s����?o��\x1f�>?~���������_��\x7f�������Ç\x1f���������\x1f�\x1e�_����\x7f��\x0f��O~������ջ�?�W���\x0f\x7fh��ߺ��o]���\x1a���\x1f������\x0f��ջ7��\x7f��?�O���~�'��4_�w�ׇ�WO�����釧�Ƿ�o�y���������ѧ\x0f��~����7�\\>��~u���ۧ�2M�����\x7f�|�����\x0f���.��?^>��\x17_���'\x7f��7o\x7f������˧\x7f�˶���\x7f�2��<M�\x7f�����˿�3\x1cuz1_���\x10\x1f�\x0c�yih�%�9^>�����-<��ũ��d���k�����}��\x08i�|�����>�´�/���.�{��\x0f���g����W}���\x0f߽zx��M=��+\x7fS!��⸿�8]_"]
+[destatis] 61111-0002: 68 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00|�B]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1790958476555_de_flat.csv��͎\x1c�u��}�B��H�����\x1a�,\x04(\x1f\x16 9��l��4�\x06�(a8\x14\x02_O�"\x01��\x05�\x16�4\x1dX��\x17}�', "�xa�\x1c������x�s����?o��\x1f�>?~���������_��\x7f�������Ç\x1f���������\x1f�\x1e�_����\x7f��\x0f��O~������ջ�?�W���\x0f\x7fh��ߺ��o]���\x1a���\x1f������\x0f��ջ7��\x7f��?�O���~�'��4_�w�ׇ�WO�����釧�Ƿ�o�y���������ѧ\x0f��~����7�\\>��~u���ۧ�2M�����\x7f�|�����\x0f���.��?^>��\x17_���'\x7f��7o\x7f������˧\x7f�˶���\x7f�2��<M�\x7f�����˿�3\x1cuz1_���\x10\x1f�\x0c�yih�%�9^>�����-<��ũ��d���k�����}��\x08i�|�����>�´�/���.�{��\x0f���g����W}���\x0f߽zx��M=��+\x7fS!��⸿�8]_"]
 [destatis] 61111-0002: 'list' object has no attribute 'strip'
-[destatis] 61121-0002: 5 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00g�A]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1790881395110_de_flat.csv՚�n�0\x14@��\x15|�[9\x0e�DW{@b[[\tZ�\x15��\x03\x16�\x16��q����/���~�~a\x01*�d�Tߥ��\x0b"6q�Бs�����wi�IK����y�P��:�����+���}{\x1e��v-u*��i����W/\x06�1:M*��O�g�7�ƪ���xu�֙�Mk�Uj�y[�y�z������OQ\x10�\x00N�^\x15yZ�J\x1b�{3�\x13-�����Z���B�����\x15��', '']
+[destatis] 61121-0002: 5 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00��B]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1790958481002_de_flat.csv՚�n�0\x14@��\x15|�[9\x0e�DW{@b[[\tZ�\x15��\x03\x16�\x16��q����/���~�~a\x01*�d�Tߥ��\x0b"6q�Бs�����wi�IK����y�P��:�����+���}{\x1e��v-u*��i����W/\x06�1:M*��O�g�7�ƪ���xu�֙�Mk�Uj�y[�y�z������OQ\x10�\x00N�^\x15yZ�J\x1b�{3�\x13-�����Z���B�����\x15��', '']
 [destatis] 61121-0002 hicp_headline_naz: 0 mesi, ultimo -
-[preliminare] FR hicp_headline 2026-09: var. mensile -0.36% da INSEE 011812231
 [preliminare] ES cpi_headline 2026-09: var. annua +4.9% da INE IPC290750
-[preliminare] ES hicp_alimentari 2026-09: var. annua +2.7% da INE IPCA16281
-[preliminare] ES hicp_energia 2026-09: var. annua +22.0% da INE IPCA9233
-[preliminare] ES hicp_headline 2026-09: var. annua +5.0% da INE IPCA8090
-[preliminare] ES hicp_servizi 2026-09: var. annua +4.2% da INE IPCA9236
-ultimi mesi: {'DE|hicp_headline': '2026-08', 'EA|hicp_headline': '2026-08', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-08'}
-NOVITA': nessuna
+ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
+NOVITA': {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
+[commento] modello claude-opus-4-8.: HTTP 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011Cfdj41vZ7AKHsYThGpHAe"}
