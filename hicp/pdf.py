@@ -1,6 +1,7 @@
 """
-PDF a caratteri grandi: corpo 16 pt, tabelle 13 pt, testo allineato a sinistra,
-alto contrasto, grafici a tutta larghezza con testo ingrandito.
+PDF a font standard dal 5/10/2026 (corpo 10,5 pt, tabelle 9,5 pt), su
+richiesta: per leggere meglio si ingrandisce la pagina nel lettore PDF. Testo
+allineato a sinistra, alto contrasto, grafici a tutta larghezza.
 """
 import os
 
@@ -22,19 +23,19 @@ GRIGIO = colors.HexColor("#EFEFEF")
 LARGHEZZA = A4[0] - 3.2 * cm
 
 S = {
-    "titolo": ParagraphStyle("titolo", fontName="Helvetica-Bold", fontSize=24, leading=29, textColor=BLU),
-    "h1": ParagraphStyle("h1", fontName="Helvetica-Bold", fontSize=20, leading=25, textColor=BLU,
+    "titolo": ParagraphStyle("titolo", fontName="Helvetica-Bold", fontSize=20, leading=24, textColor=BLU),
+    "h1": ParagraphStyle("h1", fontName="Helvetica-Bold", fontSize=15, leading=19, textColor=BLU,
                          spaceBefore=6, spaceAfter=10),
-    "h2": ParagraphStyle("h2", fontName="Helvetica-Bold", fontSize=15, leading=19, textColor=colors.black,
+    "h2": ParagraphStyle("h2", fontName="Helvetica-Bold", fontSize=12, leading=15, textColor=colors.black,
                          spaceBefore=12, spaceAfter=6),
-    "corpo": ParagraphStyle("corpo", fontName="Helvetica", fontSize=12.5, leading=17, alignment=TA_LEFT,
+    "corpo": ParagraphStyle("corpo", fontName="Helvetica", fontSize=10.5, leading=14.5, alignment=TA_LEFT,
                             spaceAfter=7),
-    "nota": ParagraphStyle("nota", fontName="Helvetica", fontSize=10.5, leading=14, alignment=TA_LEFT,
+    "nota": ParagraphStyle("nota", fontName="Helvetica", fontSize=9, leading=12, alignment=TA_LEFT,
                            textColor=colors.HexColor("#222222"), spaceAfter=6),
-    "cella": ParagraphStyle("cella", fontName="Helvetica", fontSize=11, leading=13.5),
-    "cella_b": ParagraphStyle("cella_b", fontName="Helvetica-Bold", fontSize=11, leading=13.5,
+    "cella": ParagraphStyle("cella", fontName="Helvetica", fontSize=9.5, leading=12),
+    "cella_b": ParagraphStyle("cella_b", fontName="Helvetica-Bold", fontSize=9.5, leading=12,
                               textColor=colors.white),
-    "avviso": ParagraphStyle("avviso", fontName="Helvetica-Bold", fontSize=13, leading=17,
+    "avviso": ParagraphStyle("avviso", fontName="Helvetica-Bold", fontSize=11, leading=14.5,
                              textColor=colors.HexColor("#B2182B"), spaceAfter=8),
 }
 
@@ -73,7 +74,7 @@ def img(p, larghezza=LARGHEZZA):
 
 def _piede(canvas, doc):
     canvas.saveState()
-    canvas.setFont("Helvetica", 11)
+    canvas.setFont("Helvetica", 8.5)
     canvas.drawString(1.6 * cm, 1.0 * cm, "Inflazione area euro - wrap")
     canvas.drawRightString(A4[0] - 1.6 * cm, 1.0 * cm, f"pagina {doc.page}")
     canvas.restoreState()
