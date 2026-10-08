@@ -136,6 +136,8 @@ def scrivi(ris, comunicati=None):
             print(f"[commento] {ESITO}")
             return None
         ESITO = f"ok, modello {MODELLO}"
+        from . import consumi   # 8/10/2026: riga [consumi] nel log del run
+        consumi.registra(x.json().get("usage"), MODELLO, "sintesi")
         return "".join(b.get("text", "") for b in x.json().get("content", []) if b.get("type") == "text")
     except Exception as e:  # noqa: BLE001
         ESITO = f"modello {MODELLO}: {type(e).__name__}: {e}"
