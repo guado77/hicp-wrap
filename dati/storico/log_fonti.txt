@@ -32,7 +32,7 @@
 [insee] IPC scelto 011814630: Indice des prix à la consommation - Base 2025 - Ensemble des ménages - France - Nomenclature Coicop : 00 - Ensemble
 [insee] IPC 011814630: 321 mesi, ultimo 2026-09
 [insee] salari 010562695: 36 trimestri
-[ine] IPC290751 cpi_headline: 296 mesi, ultimo 2026-08
+[ine] IPC290751 cpi_headline: 297 mesi, ultimo 2026-09
 [ine] IPC290750 var. annua cpi_headline: ultimo 2026-09
 [ine] IPCA8090 var. annua hicp_headline: ultimo 2026-09
 [ine] IPCA9233 var. annua hicp_energia: ultimo 2026-09
@@ -43,10 +43,9 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00}�M]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1791921598517_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
+[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00}�N]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1791991679047_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
 [destatis] 61111-0002: 'NoneType' object has no attribute 'lower'
-[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00\x02�M]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1791921604738_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
+[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00��N]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1791991684108_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
-[preliminare] ES cpi_headline 2026-09: var. annua +4.9% da INE IPC290750
 ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
 NOVITA': nessuna
