@@ -1,21 +1,21 @@
-[eurostat] EA (EA): 0 classi a 4 cifre
-[eurostat] EA: aggregati 2566 righe, voci 0, pesi 0
+[eurostat] EA (EA): 139 classi a 4 cifre
+[eurostat] EA: aggregati 2568 righe, voci 42182, pesi 3592
 [eurostat] EA: salari 106 trimestri
-[eurostat] IT (IT): 0 classi a 4 cifre
-[eurostat] IT: aggregati 2566 righe, voci 0, pesi 0
+[eurostat] IT (IT): 122 classi a 4 cifre
+[eurostat] IT: aggregati 2568 righe, voci 36346, pesi 3294
 [eurostat] IT: salari 106 trimestri
-[eurostat] DE (DE): 0 classi a 4 cifre
-[eurostat] DE: aggregati 2566 righe, voci 0, pesi 0
+[eurostat] DE (DE): 130 classi a 4 cifre
+[eurostat] DE: aggregati 2568 righe, voci 38893, pesi 3510
 [eurostat] DE: salari 106 trimestri
-[eurostat] FR (FR): 0 classi a 4 cifre
-[eurostat] FR: aggregati 2566 righe, voci 0, pesi 0
+[eurostat] FR (FR): 127 classi a 4 cifre
+[eurostat] FR: aggregati 2568 righe, voci 38559, pesi 3429
 [eurostat] FR: salari 106 trimestri
-[eurostat] ES (ES): 0 classi a 4 cifre
-[eurostat] ES: aggregati 2522 righe, voci 0, pesi 0
+[eurostat] ES (ES): 108 classi a 4 cifre
+[eurostat] ES: aggregati 2524 righe, voci 31325, pesi 2916
 [eurostat] ES: salari 106 trimestri
-[bce] dataflow HICP: chiave con 6 dimensioni, 1966 serie area euro
-[bce] HICP: 15 serie utili
-[bce] serie 15, salari 146 osservazioni
+[bce] dataflow HICP: chiave con 6 dimensioni, 1967 serie area euro
+[bce] HICP: 16 serie utili
+[bce] serie 16, salari 146 osservazioni
 [istat] 167_744_DF_DCSP_NIC1B2015_1: 42 serie Italia, 14 indici, 0 con osservazioni
 [istat] 167_744_DF_DCSP_NIC1B2015_1: nessuna regola soddisfatta. Etichette (ultima parte): 
 [istat] 167_745_DF_DCSP_NIC1B2025_1: 45 serie Italia, 15 indici, 0 con osservazioni
@@ -24,7 +24,7 @@
 [istat] 167_744_DF_DCSP_NIC1B2015_2: nessuna regola soddisfatta. Etichette (ultima parte): 
 [istat] 167_745_DF_DCSP_NIC1B2025_2: 57 serie Italia, 19 indici, 0 con osservazioni
 [istat] 167_745_DF_DCSP_NIC1B2025_2: nessuna regola soddisfatta. Etichette (ultima parte): 
-[istat] 168_761 IPCA: 1359 serie Italia, 453 indici, 0 con osservazioni
+[istat] 168_761 IPCA: 1377 serie Italia, 459 indici, 0 con osservazioni
 [istat] 168_761 IPCA: nessuna regola soddisfatta. Etichette (ultima parte): 
 [istat] retribuzioni <- 'annuale | italia | indice della retribuzione contrattuale per dipendente - base dicembre 2021=100 | dati grezzi | totale dipendenti al netto dei dirig' (0 mesi)
 [insee] IPCH 011812231: 321 mesi, ultimo 2026-09
@@ -43,9 +43,9 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00ĞO]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1792086849029_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
+[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00.�P]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1792163369168_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
 [destatis] 61111-0002: 'NoneType' object has no attribute 'lower'
-[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00ƞO]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1792086853873_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
+[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x000�P]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1792163373480_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
 ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
 NOVITA': nessuna
