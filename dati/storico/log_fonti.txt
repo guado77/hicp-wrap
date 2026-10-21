@@ -43,9 +43,9 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00�T]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1792519622243_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
+[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00ՌU]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1792597123423_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
 [destatis] 61111-0002: 'NoneType' object has no attribute 'lower'
-[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00�T]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1792519627511_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
+[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00،U]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1792597129090_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
 ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
 NOVITA': nessuna
