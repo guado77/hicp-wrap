@@ -16,12 +16,17 @@
 [bce] dataflow HICP: chiave con 6 dimensioni, 1967 serie area euro
 [bce] HICP: 16 serie utili
 [bce] serie 16, salari 146 osservazioni
-[istat] 167_744_DF_DCSP_NIC1B2015_1: RuntimeError: HTTP 500 su https://esploradati.istat.it/SDMXWS/rest/data/IT1,167_744_DF_DCSP_NIC1B2015_1,1.0/all?startPeriod=2016-01&format=jsondata: A network-related or instance-specific error occurred while estab
-[istat] 167_745_DF_DCSP_NIC1B2025_1: RuntimeError: HTTP 500 su https://esploradati.istat.it/SDMXWS/rest/data/IT1,167_745_DF_DCSP_NIC1B2025_1,1.0/all?startPeriod=2026-01&format=jsondata: A network-related or instance-specific error occurred while estab
-[istat] 167_744_DF_DCSP_NIC1B2015_2: RuntimeError: HTTP 500 su https://esploradati.istat.it/SDMXWS/rest/data/IT1,167_744_DF_DCSP_NIC1B2015_2,1.0/all?startPeriod=2016-01&format=jsondata: A network-related or instance-specific error occurred while estab
-[istat] 167_745_DF_DCSP_NIC1B2025_2: RuntimeError: HTTP 500 su https://esploradati.istat.it/SDMXWS/rest/data/IT1,167_745_DF_DCSP_NIC1B2025_2,1.0/all?startPeriod=2026-01&format=jsondata: A network-related or instance-specific error occurred while estab
-[istat] IPCA 168_761: RuntimeError: HTTP 500 su https://esploradati.istat.it/SDMXWS/rest/data/IT1,168_761,1.0/all?startPeriod=2024-01&format=jsondata: A network-related or instance-specific error occurred while establishing a connection
-[istat] retribuzioni: RuntimeError: HTTP 500 su https://esploradati.istat.it/SDMXWS/rest/data/IT1,155_318_DF_DCSC_RETRCONTR1C_4,1.0/all?startPeriod=2016-01&format=jsondata: A network-related or instance-specific error occurred while est
+[istat] 167_744_DF_DCSP_NIC1B2015_1: 42 serie Italia, 14 indici, 0 con osservazioni
+[istat] 167_744_DF_DCSP_NIC1B2015_1: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 167_745_DF_DCSP_NIC1B2025_1: 45 serie Italia, 15 indici, 0 con osservazioni
+[istat] 167_745_DF_DCSP_NIC1B2025_1: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 167_744_DF_DCSP_NIC1B2015_2: 114 serie Italia, 38 indici, 0 con osservazioni
+[istat] 167_744_DF_DCSP_NIC1B2015_2: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 167_745_DF_DCSP_NIC1B2025_2: 57 serie Italia, 19 indici, 0 con osservazioni
+[istat] 167_745_DF_DCSP_NIC1B2025_2: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] 168_761 IPCA: 1377 serie Italia, 459 indici, 0 con osservazioni
+[istat] 168_761 IPCA: nessuna regola soddisfatta. Etichette (ultima parte): 
+[istat] retribuzioni <- 'annuale | italia | indice della retribuzione contrattuale per dipendente - base dicembre 2021=100 | dati grezzi | totale dipendenti al netto dei dirig' (0 mesi)
 [insee] IPCH 011812231: 321 mesi, ultimo 2026-09
 [insee] IPC-2025 dimensioni ['FREQ', 'INDICATEUR', 'FORME-VENTE', 'COICOP2018', 'PRIX_CONSO', 'NATURE', 'MENAGES_IPC', 'REF_AREA', 'UNIT_MEASURE', 'CORRECTION', 'BASIND', 'SERIE_ARRETEE'], chiave 'M...00..INDICE..FE....'
 [insee] IPC scelto 011814630: Indice des prix à la consommation - Base 2025 - Ensemble des ménages - France - Nomenclature Coicop : 00 - Ensemble
@@ -38,9 +43,9 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00o�W]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1792778610536_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
+[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00\x0f�Z]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1793034030327_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
 [destatis] 61111-0002: 'NoneType' object has no attribute 'lower'
-[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00q�W]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1792778615014_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
+[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00\x11�Z]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1793034035805_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
 ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
 NOVITA': nessuna
