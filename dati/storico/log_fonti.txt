@@ -12,7 +12,7 @@
 [eurostat] FR: salari 106 trimestri
 [eurostat] ES (ES): 108 classi a 4 cifre
 [eurostat] ES: aggregati 2524 righe, voci 31325, pesi 2916
-[eurostat] ES: salari 106 trimestri
+[eurostat] ES: salari 107 trimestri
 [bce] dataflow HICP: chiave con 6 dimensioni, 1967 serie area euro
 [bce] HICP: 16 serie utili
 [bce] serie 16, salari 146 osservazioni
@@ -27,25 +27,32 @@
 [istat] 168_761 IPCA: 1377 serie Italia, 459 indici, 0 con osservazioni
 [istat] 168_761 IPCA: nessuna regola soddisfatta. Etichette (ultima parte): 
 [istat] retribuzioni <- 'annuale | italia | indice della retribuzione contrattuale per dipendente - base dicembre 2021=100 | dati grezzi | totale dipendenti al netto dei dirig' (0 mesi)
-[insee] IPCH 011812231: 321 mesi, ultimo 2026-09
+[insee] IPCH 011812231: 322 mesi, ultimo 2026-10
 [insee] IPC-2025 dimensioni ['FREQ', 'INDICATEUR', 'FORME-VENTE', 'COICOP2018', 'PRIX_CONSO', 'NATURE', 'MENAGES_IPC', 'REF_AREA', 'UNIT_MEASURE', 'CORRECTION', 'BASIND', 'SERIE_ARRETEE'], chiave 'M...00..INDICE..FE....'
 [insee] IPC scelto 011814630: Indice des prix à la consommation - Base 2025 - Ensemble des ménages - France - Nomenclature Coicop : 00 - Ensemble
-[insee] IPC 011814630: 321 mesi, ultimo 2026-09
+[insee] IPC 011814630: 322 mesi, ultimo 2026-10
 [insee] salari 010562695: 36 trimestri
 [ine] IPC290751 cpi_headline: 297 mesi, ultimo 2026-09
-[ine] IPC290750 var. annua cpi_headline: ultimo 2026-09
-[ine] IPCA8090 var. annua hicp_headline: ultimo 2026-09
-[ine] IPCA9233 var. annua hicp_energia: ultimo 2026-09
-[ine] IPCA9236 var. annua hicp_servizi: ultimo 2026-09
-[ine] IPCA16281 var. annua hicp_alimentari: ultimo 2026-09
-[ine] IPC290752 var. mensile cpi_headline: ultimo 2026-09
-[ine] IPCA8092 var. mensile hicp_headline: ultimo 2026-09
-[ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-09
-[ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-09
-[ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-09
-[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00ݡ]]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1793301298284_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
+[ine] IPC290750 var. annua cpi_headline: ultimo 2026-10
+[ine] IPCA8090 var. annua hicp_headline: ultimo 2026-10
+[ine] IPCA9233 var. annua hicp_energia: ultimo 2026-10
+[ine] IPCA9236 var. annua hicp_servizi: ultimo 2026-10
+[ine] IPCA16281 var. annua hicp_alimentari: ultimo 2026-10
+[ine] IPC290752 var. mensile cpi_headline: ultimo 2026-10
+[ine] IPCA8092 var. mensile hicp_headline: ultimo 2026-10
+[ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-10
+[ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-10
+[ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-10
+[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00Ď^]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1793379248432_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
 [destatis] 61111-0002: 'NoneType' object has no attribute 'lower'
-[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00�]]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1793301303079_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
+[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00ǎ^]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1793379254194_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
-ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-09', 'ES|hicp_headline': '2026-09', 'FR|cpi_headline': '2026-09', 'FR|hicp_headline': '2026-09', 'IT|hicp_headline': '2026-09'}
-NOVITA': nessuna
+[preliminare] FR hicp_headline 2026-10: var. mensile +0.43% da INSEE 011812231
+[preliminare] ES cpi_headline 2026-10: var. annua +4.9% da INE IPC290750
+[preliminare] ES hicp_alimentari 2026-10: var. annua +2.5% da INE IPCA16281
+[preliminare] ES hicp_energia 2026-10: var. annua +21.2% da INE IPCA9233
+[preliminare] ES hicp_headline 2026-10: var. annua +4.9% da INE IPCA8090
+[preliminare] ES hicp_servizi 2026-10: var. annua +4.2% da INE IPCA9236
+ultimi mesi: {'DE|hicp_headline': '2026-09', 'EA|hicp_headline': '2026-09', 'ES|cpi_headline': '2026-10', 'ES|hicp_headline': '2026-10', 'FR|cpi_headline': '2026-10', 'FR|hicp_headline': '2026-10', 'IT|hicp_headline': '2026-09'}
+NOVITA': {'ES|cpi_headline': '2026-10', 'ES|hicp_headline': '2026-10', 'FR|cpi_headline': '2026-10', 'FR|hicp_headline': '2026-10'}
+[commento] modello claude-opus-4-8.: HTTP 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CgYmhUQE3VoGYdfujYR36"}
