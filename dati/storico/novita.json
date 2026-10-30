@@ -2,10 +2,10 @@
  "prima": {
   "DE|hicp_headline": "2026-09",
   "EA|hicp_headline": "2026-09",
-  "ES|cpi_headline": "2026-09",
-  "ES|hicp_headline": "2026-09",
-  "FR|cpi_headline": "2026-09",
-  "FR|hicp_headline": "2026-09",
+  "ES|cpi_headline": "2026-10",
+  "ES|hicp_headline": "2026-10",
+  "FR|cpi_headline": "2026-10",
+  "FR|hicp_headline": "2026-10",
   "IT|hicp_headline": "2026-09"
  },
  "dopo": {
@@ -17,16 +17,6 @@
   "FR|hicp_headline": "2026-10",
   "IT|hicp_headline": "2026-09"
  },
- "nuovi": {
-  "ES|cpi_headline": "2026-10",
-  "ES|hicp_headline": "2026-10",
-  "FR|cpi_headline": "2026-10",
-  "FR|hicp_headline": "2026-10"
- },
- "preliminare": {
-  "ES|cpi_headline": true,
-  "ES|hicp_headline": true,
-  "FR|cpi_headline": false,
-  "FR|hicp_headline": true
- }
+ "nuovi": {},
+ "preliminare": {}
 }
