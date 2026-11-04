@@ -13,9 +13,10 @@
 [eurostat] ES (ES): 0 classi a 4 cifre
 [eurostat] ES: aggregati 2530 righe, voci 0, pesi 0
 [eurostat] ES: salari 107 trimestri
+[bce] ICP/M.U2.N.TRIM50.3.ANR: HTTP 504 su https://data-api.ecb.europa.eu/service/data/ICP/M.U2.N.TRIM50.3.ANR?format=csvdata&startPeriod=2000-01: <html lang="en"><head><title>European Central Bank</title><style type="text/css"> body{ font-family: "Droid Sans", sans-serif; margin:0; padding:0; background-color: #9099ab; text-align: center; } h1{
+[bce] ICP/M.U2.N.PCCI00.3.3MM: HTTP 504 su https://data-api.ecb.europa.eu/service/data/ICP/M.U2.N.PCCI00.3.3MM?format=csvdata&startPeriod=2000-01: <html lang="en"><head><title>European Central Bank</title><style type="text/css"> body{ font-family: "Droid Sans", sans-serif; margin:0; padding:0; background-color: #9099ab; text-align: center; } h1{
 [bce] dataflow HICP: chiave con 6 dimensioni, 1967 serie area euro
 [bce] HICP: 16 serie utili
-[bce] HICP/M.U2.N.WGTMED.4F0.ANR: HTTP 504 su https://data-api.ecb.europa.eu/service/data/HICP/M.U2.N.WGTMED.4F0.ANR?format=csvdata&startPeriod=2000-01: <html lang="en"><head><title>European Central Bank</title><style type="text/css"> body{ font-family: "Droid Sans", sans-serif; margin:0; padding:0; background-color: #9099ab; text-align: center; } h1{
 [bce] serie 16, salari 148 osservazioni
 [istat] 167_744_DF_DCSP_NIC1B2015_1: 42 serie Italia, 14 indici, 0 con osservazioni
 [istat] 167_744_DF_DCSP_NIC1B2015_1: nessuna regola soddisfatta. Etichette (ultima parte): 
@@ -44,11 +45,10 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-10
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-10
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-10
-[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00\x00�d]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1793817120739_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
+[destatis] 61111-0002: 55 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x008�d]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1793824908902_de_flat.csv��͎\x1c�u��}�B��H�����\x1a', None]
 [destatis] 61111-0002: 'NoneType' object has no attribute 'lower'
-[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00\x02�d]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1793817125980_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
+[destatis] 61121-0002: 4 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00:�d]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1793824913750_de_flat.csv՚�n�0\x14���\x14<��\x1c\x07\x02��.���"�Vm�[d��l!A�SM<O�b\x17��\x03�\x15\x16�RK�J�Q��ޠ�N�O���\x7f�ϟ_�\x0b#MR�dQ�\x16�R���T�U']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
 [preliminare] ES cpi_headline 2026-10: var. annua +4.9% da INE IPC290750
 ultimi mesi: {'DE|hicp_headline': '2026-10', 'EA|hicp_headline': '2026-10', 'ES|cpi_headline': '2026-10', 'ES|hicp_headline': '2026-10', 'FR|cpi_headline': '2026-10', 'FR|hicp_headline': '2026-10', 'IT|hicp_headline': '2026-10'}
-NOVITA': {'DE|hicp_headline': '2026-10', 'EA|hicp_headline': '2026-10', 'IT|hicp_headline': '2026-10'}
-[commento] modello claude-opus-4-8.: HTTP 400 {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CgiNCbKzuEe6c6LCYnWBt"}
+NOVITA': nessuna
