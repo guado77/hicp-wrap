@@ -1,17 +1,17 @@
-[eurostat] EA (EA): 0 classi a 4 cifre
-[eurostat] EA: aggregati 2574 righe, voci 0, pesi 0
+[eurostat] EA (EA): 139 classi a 4 cifre
+[eurostat] EA: aggregati 2576 righe, voci 42321, pesi 3592
 [eurostat] EA: salari 106 trimestri
-[eurostat] IT (IT): 0 classi a 4 cifre
-[eurostat] IT: aggregati 2574 righe, voci 0, pesi 0
+[eurostat] IT (IT): 122 classi a 4 cifre
+[eurostat] IT: aggregati 2576 righe, voci 36468, pesi 3294
 [eurostat] IT: salari 106 trimestri
-[eurostat] DE (DE): 0 classi a 4 cifre
-[eurostat] DE: aggregati 2574 righe, voci 0, pesi 0
+[eurostat] DE (DE): 130 classi a 4 cifre
+[eurostat] DE: aggregati 2576 righe, voci 39023, pesi 3510
 [eurostat] DE: salari 106 trimestri
-[eurostat] FR (FR): 0 classi a 4 cifre
-[eurostat] FR: aggregati 2574 righe, voci 0, pesi 0
+[eurostat] FR (FR): 127 classi a 4 cifre
+[eurostat] FR: aggregati 2576 righe, voci 38686, pesi 3429
 [eurostat] FR: salari 106 trimestri
-[eurostat] ES (ES): 0 classi a 4 cifre
-[eurostat] ES: aggregati 2530 righe, voci 0, pesi 0
+[eurostat] ES (ES): 108 classi a 4 cifre
+[eurostat] ES: aggregati 2532 righe, voci 31433, pesi 2916
 [eurostat] ES: salari 107 trimestri
 [bce] dataflow HICP: chiave con 6 dimensioni, 1967 serie area euro
 [bce] HICP: 16 serie utili
@@ -43,9 +43,9 @@
 [ine] IPCA9235 var. mensile hicp_energia: ultimo 2026-10
 [ine] IPCA9238 var. mensile hicp_servizi: ultimo 2026-10
 [ine] IPCA16282 var. mensile hicp_alimentari: ultimo 2026-10
-[destatis] 61111-0002: 54 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00E�q]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1794952690223_de_flat.csv՝M�\x1c�\x11��>\x057��\x10�Uݝ�hxA��\x11\x01R�hxK4ɶ8�pH��\x10���[\u0600\x17:���j�\x0cQTxQ\x0f_D��0$Q�>TMV�ϋ\x17��ǿ�N�������ݫ7\x1f�\x1e��������z\x7f�z\x7f|��\x1f��\x7f�/�>\x1dn�\x0e��\x7f���������\x1f\x1cN�۫���_��?���o\x1a��S�/���\x7f���<��O����������:���?�O}��~���ڕ�\x7f�?\x1fo_�\x1e�\u07fc', "�~�=^�]ݼ=���_���������ݛwׇ���gO��������~\x1c��\x7f���'\x7f�?�ps8\x1d\x1f�f��\x1f��O�z�����~磫��o�w����ӟ��~�(�_����o�zY�W7�<�^\x0c�6\x0e�)��_.\x13'\x1d��ype�h6�'\x1fo������[\x17Q/\x17", '\uf5c9�^rG�XHm������ӲW�:�Z/F�\x03���/u�\x0e�d0�\x7fԋ\x0f���_\x1fo�P������t�u?� �0�\x1c2gckA']
+[destatis] 61111-0002: 54 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00��r]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061111-0002_1795029236230_de_flat.csv՝M�\x1c�\x11��>\x057��\x10�Uݝ�hxA��\x11\x01R�hxK4ɶ8�pH��\x10���[\u0600\x17:���j�\x0cQTxQ\x0f_D��0$Q�>TMV�ϋ\x17��ǿ�N�������ݫ7\x1f�\x1e��������z\x7f�z\x7f|��\x1f��\x7f�/�>\x1dn�\x0e��\x7f���������\x1f\x1cN�۫���_��?���o\x1a��S�/���\x7f���<��O����������:���?�O}��~���ڕ�\x7f�?\x1fo_�\x1e�\u07fc', "�~�=^�]ݼ=���_���������ݛwׇ���gO��������~\x1c��\x7f���'\x7f�?�ps8\x1d\x1f�f��\x1f��O�z�����~磫��o�w����ӟ��~�(�_����o�zY�W7�<�^\x0c�6\x0e�)��_.\x13'\x1d��ype�h6�'\x1fo������[\x17Q/\x17", '\uf5c9�^rG�XHm������ӲW�:�Z/F�\x03���/u�\x0e�d0�\x7fԋ\x0f���_\x1fo�P������t�u?� �0�\x1c2gckA']
 [destatis] 61111-0002: 'list' object has no attribute 'strip'
-[destatis] 61121-0002: 7 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00G�q]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1794952694883_de_flat.csv՛�j�0\x14���\x14y\x00�Hr�ƈ]\x04��']
+[destatis] 61121-0002: 7 righe; colonne ['PK\x03\x04\x14\x00\x08\x08\x08\x00��r]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00$\x00\x00\x0061121-0002_1795029240959_de_flat.csv՛�j�0\x14���\x14y\x00�Hr�ƈ]\x04��']
 [destatis] 61121-0002: 'list' object has no attribute 'strip'
 ultimi mesi: {'DE|hicp_headline': '2026-10', 'EA|hicp_headline': '2026-10', 'ES|cpi_headline': '2026-10', 'ES|hicp_headline': '2026-10', 'FR|cpi_headline': '2026-10', 'FR|hicp_headline': '2026-10', 'IT|hicp_headline': '2026-10'}
 NOVITA': nessuna
