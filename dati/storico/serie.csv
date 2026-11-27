@@ -10571,6 +10571,7 @@ ES,cpi_headline,0,2026-07,103.899,INE IPC290751
 ES,cpi_headline,0,2026-08,104.638,INE IPC290751
 ES,cpi_headline,0,2026-09,104.978,INE IPC290751
 ES,cpi_headline,0,2026-10,105.651,INE IPC290751
+ES,cpi_headline,0,2026-11,105.0817,stima preliminare INE IPC290750 (var. annua +4.1% applicata all'indice)
 ES,hicp_alimentari,0,2000-01,44.33,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2000-02,44.14,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2000-03,44.15,Eurostat prc_hicp_minr ES
@@ -10893,6 +10894,7 @@ ES,hicp_alimentari,0,2026-07,102.06,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2026-08,101.94,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2026-09,102.16,Eurostat prc_hicp_minr ES
 ES,hicp_alimentari,0,2026-10,103.21,Eurostat prc_hicp_minr ES
+ES,hicp_alimentari,0,2026-11,103.3128,stima preliminare INE IPCA16281 (var. annua +2.3% applicata all'indice)
 ES,hicp_beni,0,2000-12,58.84,Eurostat prc_hicp_minr ES
 ES,hicp_beni,0,2001-01,57.96,Eurostat prc_hicp_minr ES
 ES,hicp_beni,0,2001-02,57.94,Eurostat prc_hicp_minr ES
@@ -11837,6 +11839,7 @@ ES,hicp_energia,0,2026-07,110.29,Eurostat prc_hicp_minr ES
 ES,hicp_energia,0,2026-08,116.56,Eurostat prc_hicp_minr ES
 ES,hicp_energia,0,2026-09,121.27,Eurostat prc_hicp_minr ES
 ES,hicp_energia,0,2026-10,121.19,Eurostat prc_hicp_minr ES
+ES,hicp_energia,0,2026-11,118.0742,stima preliminare INE IPCA9233 (var. annua +17.3% applicata all'indice)
 ES,hicp_ex_energia,0,2000-12,58.58,Eurostat prc_hicp_minr ES
 ES,hicp_ex_energia,0,2001-01,58.35,Eurostat prc_hicp_minr ES
 ES,hicp_ex_energia,0,2001-02,58.34,Eurostat prc_hicp_minr ES
@@ -12470,6 +12473,7 @@ ES,hicp_headline,0,2026-07,104.06,Eurostat prc_hicp_minr ES
 ES,hicp_headline,0,2026-08,104.74,Eurostat prc_hicp_minr ES
 ES,hicp_headline,0,2026-09,105.4,Eurostat prc_hicp_minr ES
 ES,hicp_headline,0,2026-10,105.91,Eurostat prc_hicp_minr ES
+ES,hicp_headline,0,2026-11,105.0994,stima preliminare INE IPCA8090 (var. annua +4.1% applicata all'indice)
 ES,hicp_servizi,0,2000-12,55.14,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2001-01,55.5,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2001-02,55.6,Eurostat prc_hicp_minr ES
@@ -12781,6 +12785,7 @@ ES,hicp_servizi,0,2026-07,105.45,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2026-08,105.84,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2026-09,105.17,Eurostat prc_hicp_minr ES
 ES,hicp_servizi,0,2026-10,105.24,Eurostat prc_hicp_minr ES
+ES,hicp_servizi,0,2026-11,104.3015,stima preliminare INE IPCA9236 (var. annua +3.7% applicata all'indice)
 ES,hicp_trasporti,0,2000-01,54.27,Eurostat prc_hicp_minr ES
 ES,hicp_trasporti,0,2000-02,54.67,Eurostat prc_hicp_minr ES
 ES,hicp_trasporti,0,2000-03,55.6,Eurostat prc_hicp_minr ES
@@ -13425,6 +13430,7 @@ FR,cpi_headline,0,2026-07,102.68,INSEE 011814630
 FR,cpi_headline,0,2026-08,103.35,INSEE 011814630
 FR,cpi_headline,0,2026-09,103.07,INSEE 011814630
 FR,cpi_headline,0,2026-10,103.46,INSEE 011814630
+FR,cpi_headline,0,2026-11,102.78,INSEE 011814630
 FR,hicp_alimentari,0,2000-01,51.58,Eurostat prc_hicp_minr FR
 FR,hicp_alimentari,0,2000-02,51.74,Eurostat prc_hicp_minr FR
 FR,hicp_alimentari,0,2000-03,51.74,Eurostat prc_hicp_minr FR
@@ -15357,6 +15363,7 @@ FR,hicp_headline,0,2026-07,103.0,Eurostat prc_hicp_minr FR
 FR,hicp_headline,0,2026-08,103.76,Eurostat prc_hicp_minr FR
 FR,hicp_headline,0,2026-09,103.45,Eurostat prc_hicp_minr FR
 FR,hicp_headline,0,2026-10,103.87,Eurostat prc_hicp_minr FR
+FR,hicp_headline,0,2026-11,103.1,stima preliminare INSEE 011812231 (var. mensile -0.74% applicata all'indice)
 FR,hicp_headline_naz,0,2000-01,62.23,INSEE 011812231
 FR,hicp_headline_naz,0,2000-02,62.31,INSEE 011812231
 FR,hicp_headline_naz,0,2000-03,62.62,INSEE 011812231
@@ -15679,6 +15686,7 @@ FR,hicp_headline_naz,0,2026-07,103.0,INSEE 011812231
 FR,hicp_headline_naz,0,2026-08,103.76,INSEE 011812231
 FR,hicp_headline_naz,0,2026-09,103.45,INSEE 011812231
 FR,hicp_headline_naz,0,2026-10,103.87,INSEE 011812231
+FR,hicp_headline_naz,0,2026-11,103.1,INSEE 011812231
 FR,hicp_servizi,0,2000-01,60.16,Eurostat prc_hicp_minr FR
 FR,hicp_servizi,0,2000-02,60.31,Eurostat prc_hicp_minr FR
 FR,hicp_servizi,0,2000-03,60.31,Eurostat prc_hicp_minr FR
